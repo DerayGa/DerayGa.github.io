@@ -3,31 +3,74 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Deray 嘎嘎嘎 - GitHub 版本</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="masonry.pkgd.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/jquery.capty.css"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/jquery.capty.min.js"></script>
 	<style>
-		.grid-item { 
-			width: 200px;
-			background-color: red;
+		.snapshot{
+			display:none;
+		}
+		.capty-wrapper{
+			display: inline-block;
+		}
+		div.capty-caption {
+			font-size:16px;
+			font-family: '微軟正黑體', arial;
 		}
 	</style>
 </head>
 <body>
-<div class="grid">
-  <div class="grid-item">.GA.</div>
-  <div class="grid-item">.LA.</div>
-  <div class="grid-item">.PA.</div>
-</div>
-</body>
-<script type="text/javascript">
-	$( document ).ready(function() {
-		$('.grid').masonry({
-			// options
-			itemSelector: '.grid-item',
-			columnWidth: 200
-		});
-	});
+	<img class='snapshot' src="image/blog.jpg" name="#blog" width="342"/>
+	<div id="blog">日誌、部落格<br/><a href="http://blog.deray.org">http://blog.deray.org</a></div>
 
+	<img class='snapshot' src="image/nippon.jpg" name="#nippon" width="342"/>
+	<div id="nippon">單車-環日本(2015年)<br/><a href="http://nippon.deray.org">http://nippon.deray.org</a></div>
+
+	<img class='snapshot' src="image/hokkaido.jpg" name="#hokkaido" width="342"/>
+	<div id="hokkaido">機車-環北海道(2014年)<br/><a href="http://blog.deray.org/hokkaido/">http://blog.deray.org/hokkaido/</a></div>
+
+	<img class='snapshot' src="image/tibet.jpg" name="#tibet" width="342"/>
+	<div id="tibet">單車-西藏：青藏線(2013年)<br/><a href="http://blog.deray.org/tibet/">http://blog.deray.org/tibet/</a></div>
+
+	<img class='snapshot' src="image/franceWithMisasa.jpg" name="#franceWithMisasa" width="342"/>
+	<div id="franceWithMisasa">背包-火車環法國(2012年)<br/><a href="http://blog.deray.org/franceWithMisasa/">http://blog.deray.org/franceWithMisasa/</a></div>
+
+	<img class='snapshot' src="image/btp.jpg" name="#btp" width="342"/>
+	<div id="btp">北京到巴黎(2007年)<br/><a href="http://btp.deray.org">http://btp.deray.org</a></div>
+
+	<img class='snapshot' src="image/kyoto.jpg" name="#kyoto" width="342"/>
+	<div id="kyoto">背包-京都、大阪(2006年)<br/><a href="http://blog.deray.org/kyoto/">http://blog.deray.org/kyoto/</a></div>
+
+	<img class='snapshot' src="image/france.jpg" name="#france" width="342"/>
+	<div id="france">單車-環法國(2005年)<br/><a href="http://france.deray.org">http://france.deray.org</a></div>
+
+	<img class='snapshot' src="image/bicycle.jpg" name="#bicycle" width="342"/>
+	<div id="bicycle">單車-環台(2003年)<br/><a href="http://bicycle.deray.org">http://bicycle.deray.org</a></div>
+</body>
+
+<script type="text/javascript">
+	var images = [];
+	$( document ).ready(function() {
+		images = $('.snapshot').toArray().reverse();
+		$('.snapshot').capty({
+  			animation: 'fixed',
+			height:   60,
+			opacity:  0.7
+		});
+		console.log(images)
+		if(images.length > 0)
+			fadeIn(images.pop());
+	});
+	function fadeIn(dom){
+		$(dom).fadeIn({
+			duration:150,
+			complete: function(){
+				if(images.length > 0)
+					fadeIn(images.pop());
+			}
+		});
+	}
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-1041499-1']);
 	_gaq.push(['_setDomainName', 'deray.org']);
