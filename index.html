@@ -100,6 +100,27 @@
 			name: '單車-環台(2003年)',
 			link: 'bicycle.deray.org',
 			gitLink: 'derayga.github.io/bicycle'
+		},
+		{
+			id: 'wikipedia',
+			height: 312,
+			name: '維基百科',
+			link: 'zh.wikipedia.org/wiki/%E8%96%9B%E5%BE%B7%E7%91%9E',
+			gitLink: 'zh.wikipedia.org/wiki/%E8%96%9B%E5%BE%B7%E7%91%9E'
+		},
+		{
+			id: 'youtube',
+			height: 244,
+			name: 'YouTube',
+			link: 'www.youtube.com/user/DerayGo/videos',
+			gitLink: 'www.youtube.com/user/DerayGo/videos'
+		},
+		{
+			id: 'gmail',
+			height: 251,
+			name: 'Gmail',
+			link: 'deraygo@gmail.com?subject=Hi~Deray',
+			gitLink: 'deraygo@gmail.com?subject=Hi~Deray'
 		}
 	];
 
@@ -112,9 +133,12 @@
 
 		$.each(items, function(index, item){
 			var link = (isGit) ? item.gitLink : item.link;
+			var protocal = 'http://';
+			if(item.id == 'gmail')
+				protocal = 'mailto:';
 
 			var a = $(document.createElement('a')).attr({
-				href: 'http://' + link
+				href: protocal + link
 			});
 			var gridItem = $(document.createElement('div')).addClass('grid-item').height(item.height).width(width);
 
