@@ -100,29 +100,41 @@
 			name: '單車-環台(2003年)',
 			link: 'bicycle.deray.org',
 			gitLink: 'derayga.github.io/bicycle'
-		},
-		{
-			id: 'wikipedia',
-			height: 312,
-			name: '維基百科',
-			link: 'zh.wikipedia.org/wiki/%E8%96%9B%E5%BE%B7%E7%91%9E',
-			gitLink: 'zh.wikipedia.org/wiki/%E8%96%9B%E5%BE%B7%E7%91%9E'
-		},
+		}
+	];
+
+	var externals = [
 		{
 			id: 'youtube',
-			height: 244,
+			height: 81,
 			name: 'YouTube',
-			link: 'www.youtube.com/user/DerayGo/videos',
-			gitLink: 'www.youtube.com/user/DerayGo/videos'
+			link: 'www.youtube.com/user/DerayGo/videos'
 		},
 		{
 			id: 'gmail',
-			height: 251,
+			height: 83,
 			name: 'Gmail',
-			link: 'deraygo@gmail.com?subject=Hi~Deray',
-			gitLink: 'deraygo@gmail.com?subject=Hi~Deray'
+			link: 'deraygo@gmail.com?subject=Hi~Deray'
+		},
+		{
+			id: 'github',
+			height: 114,
+			name: 'GitHub',
+			link: 'github.com/derayGa'
+		},
+		{
+			id: 'wikipedia',
+			height: 103,
+			name: '維基百科',
+			link: 'zh.wikipedia.org/wiki/%E8%96%9B%E5%BE%B7%E7%91%9E'
+		},
+		{
+			id: 'linkedin',
+			height: 114,
+			name: 'LinkedIn',
+			link: 'tw.linkedin.com/in/derayga'
 		}
-	];
+	]
 
 	$( document ).ready(function() {
 		var width = 342;
@@ -157,6 +169,34 @@
 			$('.grid').append($(gridItem).append($(a).append($(image)).append($(image.context))));
 		});
 
+		var externalItem = $(document.createElement('div')).addClass('grid-item').height(220).width(width);
+		$.each(externals, function(index, item){
+			var link = item.link;
+			var protocal = 'http://';
+			if(item.id == 'gmail')
+				protocal = 'mailto:';
+
+			var a = $(document.createElement('a')).attr({
+				href: protocal + link
+			});
+
+			var image = $(new Image()).attr({
+				src: 'image/' + item.id + '.jpg',
+				name: '#' + item.id,
+				title: item.name,
+				height: item.height + 'px',
+				width: '114px'
+			}).hide()[0];
+
+			image.linkType ='external';
+			image.context = $(document.createElement('div')).attr({
+				id: item.id
+			}).html(item.name).hide();
+
+			$(externalItem).append($(a).append($(image)).append($(image.context)))
+		});
+		$('.grid').append($(externalItem));
+
 		$('.grid').masonry({
 			itemSelector: '.grid-item',
 			columnWidth: width,
@@ -167,12 +207,14 @@
 			$(image).delay(index*70).fadeIn({
 				duration:330,
 				complete: function(){
-					$(image).capty({
-			  			animation: 'fixed',
-						height:   60,
-						opacity:  0.75
-					});
-					$(image.context).fadeIn(500);
+					if(image.context){
+						$(image).capty({
+				  			animation: 'fixed',
+							height: (image.linkType == 'external') ? 35 : 60,
+							opacity:  0.75
+						});
+						$(image.context).fadeIn(500);
+					}
 				}
 			});
 		});
