@@ -146,12 +146,9 @@
 
 		$.each(items, function(index, item){
 			var link = (isGit) ? item.gitLink : item.link;
-			var protocal = 'http://';
-			if(item.id == 'gmail')
-				protocal = 'mailto:';
 
 			var a = $(document.createElement('a')).attr({
-				href: protocal + link
+				href: 'http://' + link
 			});
 			var gridItem = $(document.createElement('div')).addClass('grid-item').height(item.height).width(width);
 
@@ -170,7 +167,7 @@
 			$('.grid').append($(gridItem).append($(a).append($(image)).append($(image.context))));
 		});
 
-		var externalItem = $(document.createElement('div')).addClass('grid-item').height(220).width(width);
+		var gridItem = $(document.createElement('div')).addClass('grid-item').height(220).width(width);
 		$.each(externals, function(index, item){
 			var link = item.link;
 			var protocal = 'http://';
@@ -189,14 +186,13 @@
 				width: '114px'
 			}).hide()[0];
 
-			image.linkType ='external';
 			image.context = $(document.createElement('div')).attr({
 				id: item.id
 			}).html(item.name).hide();
 
-			$(externalItem).append($(a).append($(image)).append($(image.context)))
+			$(gridItem).append($(a).append($(image)).append($(image.context)))
 		});
-		$('.grid').append($(externalItem));
+		$('.grid').append($(gridItem));
 
 		$('.grid').masonry({
 			itemSelector: '.grid-item',
@@ -210,8 +206,8 @@
 				complete: function(){
 					if(image.context){
 						$(image).capty({
-				  			animation: 'fixed',
-							height: (image.linkType == 'external') ? 35 : 60,
+				  			animation: ($(image).width() <= 115) ? undefined : 'fixed',
+							height: ($(image).width() <= 115) ? 35 : 60,
 							opacity:  0.75
 						});
 						$(image.context).fadeIn(500);
