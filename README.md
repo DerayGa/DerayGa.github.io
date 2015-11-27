@@ -39,7 +39,7 @@ http://www.deray.org
 * [2005年: **環法** - 5,349 KM / 51天](http://france.deray.org/)
 * [2003年: **環台** - 1,100 KM / 6天](http://bicycle.deray.org/)
 
-    (皆為單人，以單車旅行方式進行)
+(皆為單人，以單車旅行方式進行)
 
 ---
 ## 語言：
