@@ -15,6 +15,7 @@ http://www.deray.org
 
 ---
 ## 自我介紹：
+熟悉Windows .NET、iOS、Web front-end專案開發。
 無可自拔的熱愛寫程式，程式不只是我的工作，而是我的生活，喜歡研究新的技術。 卻不死忠的擁抱不放，自我嚴謹的開發規範，專案的架構分析、設計與分工。 懂專案管理的技術底軟體工程師，走敏捷式開發，力求期限內交件與完美品質。
 
 ---
@@ -94,7 +95,7 @@ http://www.deray.org
 - **POS Transaction Tracker系統**
     + 負責：Windows client
     + 技術：C#.NET、XML、JSON、AJAX、COM、MySQL、DLL encryption
-    + 效益：POS Transaction Tracker為結合NVR(包括但不限於自家的NVR)與眾多廠牌POS機器的整合系統。 可以提供業者影像監控與POS交易資料的有用情報，多用於企業內部防賊(Loss Prevention)ODM給美國Salient銷售，已安裝於許多retail領域、連鎖超商、花藝店、餐飲店等。成效非常之好，原本要花費數個月才能調查出監守自盜的事件。現在可以透過異常交易指令通報， 配合即時影像/回放影像，在搭配上遠端監控操作，老闆在總部就可以蒐證，然後報警開除員工。
+    + 效益：POS Transaction Tracker為結合NVR(包括但不限於自家的NVR)與眾多廠牌POS機器的整合系統。 可以提供業者影像監控與POS交易資料的有用情報，多用於企業內部防賊(Loss Prevention)ODM給美國Salient銷售，已安裝於許多retail領域、連鎖超商、花藝店、餐飲店等。成效非常之好，原本要花費數個月才能調查出監守自盜的事件。現在可以透過異常交易指令通報， 配合即時影像/回放影像，再搭配上遠端監控操作，老闆在總部就可以蒐證，然後報警開除員工。
     + 網址：http://www.salientsys.com/products/pos-transaction-tracker
 
 - **D-Link Justconnect+**
