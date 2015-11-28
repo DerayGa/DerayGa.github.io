@@ -1,141 +1,139 @@
-## 薛德瑞
-男，1980年10月10日出生，35歲。188公分，80公斤。
+## Deray Hsueh
+Male, born in 1980/10/10 Taiwan, 35 years old, height 188 cm, weight 80 kg.
 
-役畢-憲兵司令部-機車連-下士，已婚，養貓，宜蘭人，
+Military police command - Motorcycle company - Corporal, married, one cat.
 
-#### 維基百科：
-https://zh.wikipedia.org/zh-tw/薛德瑞
+#### Wikipedia:
+https://zh.wikipedia.org/zh-tw/%E8%96%9B%E5%BE%B7%E7%91%9E
 
-#### 個人網站：
+#### Website:
 http://www.deray.org
 
 ---
-## 學歷：
-台灣科技大學-資訊工程系-學士。
+## Education:
+National Taiwan University of Science and Technology - Computer Science and Information Engineering
 
 ---
-## 自我介紹：
-熟悉 .NET、iOS、Web front-end專案開發。
-無可自拔的熱愛寫程式，程式不只是我的工作，而是我的生活，喜歡研究新的技術。 卻不死忠的擁抱不放，自我嚴謹的開發規範，專案的架構分析、設計與分工。 懂專案管理的技術底軟體工程師，走敏捷式開發，力求期限內交件與完美品質。
+## About:
+Familiar with .NET, iOS, Web front-end product development.
+Enthusiasm programer, clean coder. I love coding, be a programer is not just my job, but my life. Like to study new technologies about mobile and front-end. Software development in rigorous specification such as code review, coding style and refactoring, Have ability to analysis project, design system architecture and task assignment within agile development. Understanding project management also have fully software engineer skill. Deliver high quality product in defined schedule.
 
 ---
-## 薪資：
-- **最高:** 85K/月, 1.5M/年。
-- **期望:** 90K/月, 1.25M/年+獎金/股票
+## Salary:
+- **Highest:** 85K/Month, 1.5M/Year.
+- **Expect:** 90K/Month, 1.25M/Year+bonus
 
 ---
-## 專長：
-- **Programing:** C#(.NET)、Objective-C(iOS)、JavaScript、jQuery、React、HTML5、CSS3、PHP、Java
-- **Database:** SQL(MySQL、SQL Server)、noSQL(MongoDB)
-- **Server:** node.js、Apache、tomcat、JBoss AS
-- **Revision control:** Git、SNV、Visual SourceSafe
-- **Other:** RESTful API、JSON、XML、 Responsive Web Design、Material UI
-- **IDE:** XCode、AppCode、Visual Studio、Sublime Text
+## Skills:
+- **Programing:** C#(.NET), Objective-C(iOS), JavaScript, jQuery, React, HTML5, CSS3, PHP, Java
+- **Database:** SQL(MySQL,SQL Server), noSQL(MongoDB)
+- **Server:** node.js, Apache, tomcat, JBoss AS
+- **Revision control:** Git, SNV, Visual SourceSafe
+- **Other:** RESTful API, JSON, XML, Responsive Web Design, Material UI
+- **IDE:** XCode, AppCode, Visual Studio, Sublime Text
 
 ---
-## 活動：
-* [2015年: **環日** 九州-本州-北海道-本州-四國-九州 - 6,381 KM / 52天](http://nippon.deray.org/)
-* [2013年: **青藏公路** 蘭州-青海-西藏(拉薩) - 978 KM / 14天](http://blog.deray.org/tibet/)
-* [2007年: **橫跨歐亞** 中國(北京)-哈薩克-俄羅斯-白俄羅斯-波蘭-德國-法國(巴黎)-台灣 - 15,401 KM /155天](http://btp.deray.org/)
-* [2005年: **環法** - 5,349 KM / 51天](http://france.deray.org/)
-* [2003年: **環台** - 1,100 KM / 6天](http://bicycle.deray.org/)
+## Journey:
+* [2015: **Japan** Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu - 6,381 KM / 52 Days](http://nippon.deray.org/)
+* [2013年: **Tibet Highway** Lanzhou-Qinghai-Tibet (Lhasa) - 978 KM / 14 Days](http://blog.deray.org/tibet/)
+* [2007年: **Beijing to Paris** China(Beijing)-Kazakhstan-Russia-Belarus-Poland-Germany-Paris(Paris)-Taiwan - 15,401 KM /155 Days](http://btp.deray.org/)
+* [2005年: **France** - 5,349 KM / 51 Days](http://france.deray.org/)
+* [2003年: **Taiwan** - 1,100 KM / 6 Days](http://bicycle.deray.org/)
 
-(皆為單人，以單車旅行方式進行)
-
----
-## 語言：
-|   語系  |    程度     |
-|:-------:|:-----------:|
-|   中文  |    母語     |
-|   英文  |聽說讀寫/無礙|
-|   日文  |  聽說/略懂  |
+(Traveling with bicycle, alone)
 
 ---
-## 任職:
-|         公司                     |       時間      |
-|:--------------------------------:|:---------------:|
-| 台達研究院  Delta Research Center|    2015/7 ~ 今  |
-| 旭人科技    iSAP Solution        | 2011/6 ~ 2015/3 |
-| 建騰創達    ACTi Corporation     | 2008/7 ~ 2011/5 |
-| 國家高速網路與計算中心    NCHC   | 2007/6 ~ 2008/6 |
-| 台灣積體電路製造    TSMC         | 2006/4 ~ 2007/3 |
-
- (職稱皆為資深/軟體工程師)
+## Languages:
+| Language  |  Level  |
+|:---------:|:-------:|
+|  Chinese  |  Native |
+|  English  |  Well   |
+|  Japanese |  Little |
 
 ---
-## 專案：
+## Experience:
+|     Corporation      |   Time Period   |
+|:--------------------:|:---------------:|
+|Delta Research Center |    2015/7 ~     |
+|  iSAP Solution       | 2011/6 ~ 2015/3 |
+|  ACTi Corporation    | 2008/7 ~ 2011/5 |
+|  NARLabs - NCHC      | 2007/6 ~ 2008/6 |
+|  TSMC - Fab 3        | 2006/4 ~ 2007/3 |
 
-#### 旭人科技
-- **NVR系統(Web)**
-    + 負責：Web client、System Architecture、CGI Design、UI、UX
-    + 技術：JavaScript、jQuery、HTML5、CSS3、XML、JSON、AJAX、ActiveX、
-        Cross-Browser Compatible、Obfuscated Subversion
-    + 效益：NVR(Network Video Recorder)的功能是用來管理IP Camera，以物件導向的架構開發SPA(Single Page Application)的NVR Web client，使用程式碼控管進行多人專案協作。 新設計的plugin架構，透過XML定義結構，能開發符合客戶需求的加值服務，而不需要修改/損毀基礎系統。 Release時導入程式碼混淆、合併的流程，不僅能保護程式碼，且有效的減少.js檔案數量(323多個->6個) 大幅減少HTTP的往返，搭配快取機制，能加快網頁載入的速度至一瞬間。 除了IE(8+)之外，另外還支援Firefox、Chrome、Safari等各大瀏覽器，並提供Smartphone跟Tablet的使用介面。使用統一的設定頁面提供超過十多個廠牌的攝影機設定，ODM給數家廠商銷售。
+ (Title: Senior/Software Engineer)
 
-- **NVR系統(Windows/Linux)**
-    + 負責：Windows client、Linux client
-    + 技術：C#.NET、XML、JSON、AJAX、COM、Qt、dll encryption
-    + 效益：待Web client穩定後，接著開發Windows版本的NVR client，它不同於Web Client的地方在於， 原生的應用程式，擁有很強大的執行效能，且透過.NET函式庫，能執行的事情更廣泛了，比如搖桿的支援。 最多可以同時監控64支攝影機的即時影像，記憶體的需求遠大於4GB，所以必須bulid 64bit的版本。 為了一致的使用者體驗，Windows的版本外觀和操作的流程完成和Web版無異。 並且使用相同的CGI/API與server端傳遞資料，且使用相同的XML資料結構。 在Linux standalone的版本。則使用Qt開發原生執行的Linux client。 如同Web Client，在release的版本之中，會針對dll檔案做額外的加密混淆技術，避免被反編譯。
+---
+## Project:
 
-- **CMS系統(Windows)**
-    + 負責：Windows client
-    + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
-    + 效益：CMS(Centralized Management Software)的功能是用於管理NVR，一台NVR至多可以管理64支攝影機，而一台CMS至多可以管理16台NVR。 相當於1024台攝影機，使用者可以透過CMS監控任一台NVR的任一支攝影機影像，除了監看之外， 還有事件通知、錄影異常通知、使用者權限控管、同步影像回放、匯出等功能。 CMS除了如上述的ODM販售之外，也同步安裝在台灣多個設施，像是高雄佛光山佛陀紀念館、 捷運信義線、捷運車廂、桃園機場第2航廈、台大醫院、南港中國信託金融園區等。
+#### iSAP Solution
+- **NVR Client(Web)**
+    + Responsible:Web client, System architecture, CGI design, UI, UX
+    + Skills:JavaScript, jQuery, HTML5, CSS3, XML, JSON, AJAX, ActiveX, cross-browser Compatible, obfuscated, subversion
+    + Benefit:NVR(Network Video Recorder) is use to management IP cameras. I use object-oriented architecture to development SPA(Single Page Application) NVR web client, and use revision control system to handle multi programer co-work. With whole new plugin design, use XML to define structure/property/method, can easily implement value-added features for different customer without modify/damage base NVR architecture. Processing code obfuscated and bundle before release product, it's not only protecting source code but also decrease .js file amount from 323 to just 6. Greatly reduce HTTP connections number, within cache control I can speed up web page loading time to blink of eye. Supported cross-browser include IE, Firefox, Chrome, Safari, smartphone, tablet browser. Allow user config more than dozen of different manufacture IP camera with standard setting config interface.
 
-- **IVS系統(Windows)**
-    + 負責：Windows client
-    + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
-    + 效益：IVS(Intelligence Video Surveillance)為NVR系統之加值服務，提供影像識別辨識、偵測等功能。IVS在Retail市場效益很好，業者想知道人潮的走向、在商品面前的停留時間。 禁止區域的進入預防，來訪客人的識別和計數來客人數，來客時間週期報表等。
+- **NVR Client(Windows/Linux)**
+    + Responsible:Windows client, Linux client
+    + Skills:C#.NET, XML, JSON, AJAX, COM, Qt, DLL encryption
+    + Benefit:After web client is stable then I continue development Windows version of NVR client. It's native application for Windows that have strong execution performance and powered by .NET framework can provide more features, such as USB joystick support, maximum up to 64-ch live video monitor. Use the same CGI/API to interactive with back-end server, and the same XML data structure to build application client. In Linux standalone version use Qt to development native client. Before product release I will encryption dll files avoid being decompiled.
 
-- **FOS系統(Windows)**
-    + 負責：Windows client
-    + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
-    + 效益：FOS(Failover System)為NVR之故障備援系統，負責偵測複數NVR的連線狀態、主機、硬碟、CPU等狀態。 提供健康度的分析，讓系統業者能掌握每台NVR的負荷程度，以及提前進行故障排除。 而當NVR發生故障時，FOS會備份故障NVR的系統組態，複製到一台待機的NVR上，然後啟動它作為備援。 只要花費額外一台待機NVR的機器，就能提供自動故障備援的功能，對業者來說是很好的投資。FOS使用在監獄系統、還有銀行業者等處。
+- **CMS Client(Windows)**
+    + Responsible:Windows client
+    + Skills:C#.NET, XML, JSON, AJAX, COM, DLL encryption
+    + Benefit:CMS(Centralized Management Software) is use to management NVR. Single NVR can manage up to 64 IP cameras but single CMS can manage up to 16 NVR. Equivalent to 1024 IP cameras, user can use CMS to monitor any camera in any NVR. Besides video monitor, CMS also provide event push notify, video recording error alert, user permission control, synchronize video playback, video exporting and much more features.
 
-- **POS Transaction Tracker系統(Windows)**
-    + 負責：Windows client
-    + 技術：C#.NET、XML、JSON、AJAX、COM、MySQL、DLL encryption
-    + 效益：POS Transaction Tracker為結合NVR(包括但不限於自家的NVR)與眾多廠牌POS機器的整合系統。 可以提供業者影像監控與POS交易資料的有用情報，多用於企業內部防賊(Loss Prevention)ODM給美國Salient銷售，已安裝於許多retail領域、連鎖超商、花藝店、餐飲店等。成效非常之好，原本要花費數個月才能調查出監守自盜的事件。現在可以透過異常交易指令通報， 配合即時影像/回放影像，再搭配上遠端監控操作，老闆在總部就可以蒐證，然後報警開除員工。
-    + 網址：http://www.salientsys.com/products/pos-transaction-tracker
+- **IVS Client(Windows)**
+    + Responsible:Windows client
+    + Skills:C#.NET, XML, JSON, AJAX, COM, DLL encryption
+    + Benefit:IVS(Intelligence Video Surveillance) is value-added service for NVR system,provide video recognition, prohibited area detection. IVS sales very well in retail marketing. Business owner want to know trend of customer, the duration stay in front of goods, enter prohibited area prevention, people counting and customer identification...etc
 
-- **D-Link Justconnect+(iOS)**
-    + 負責：iOS client
-    + 技術：Objective-C、Socket、Video decode/encode
-    + 效益：除了幫D-Link代工之外，也替公司帶來每個月1千萬的營收。 此App，是免費下載，D-Link會依照攝影機的出貨量提撥費用給旭人科技，非一次性買斷。並不提供程式碼給D-Link。
-    + 網址：https://itunes.apple.com/gb/app/justconnect+/id599879455
+- **FOS Client(Windows)**
+    + Responsible:Windows client
+    + Skills:C#.NET, XML, JSON, AJAX, DLL encryption
+    + Benefit:FOS(Failover System) is NVR backup/failover recovery system, responsible to monitor multi NVR server's connection status, hard drive space usage, CPU loading. Provide health analytic allow system administrator can control NVR loading and status, troubleshooting before NVR malfunction down. FOS will backup NVR's system configuration and clone to another standby NVR, after automatic reboot backup NVR as a NVR server. FOS have great potential in prison and financial Industry.
+
+- **POS Transaction Tracker(Windows)**
+    + Responsible:Windows client
+    + Skills:C#.NET, XML, JSON, AJAX, COM, MySQL, DLL encryption
+    + Benefit:POS Transaction Tracker combine NVR(support multi brand NVR) and integrate with many different POS system. Provide video surveillance and POS transaction information, very useful for retail loss prevention, ODM to Salient Corp.(USA). In the past, manager need spent several months to investigate the transaction fraud, now can use "Unusual Transactions Alert" to initiative notify, within live video monitor/playback and remote access control, manager can collect evidence from all branch store in his office and dismiss employee immediately.
+    + Link:http://www.salientsys.com/products/pos-transaction-tracker
+
+- **D-Link Justconnect(iOS)+**
+    + Responsible:iOS client
+    + Skills:Objective-C, Socket, Networking, Video decode/encode
+    + Benefit:ODM for D-Link, obtain profit about 10 million NTD per month. Allow user connect to D-Link IP camera/NVR via direct connection or through mydlink web portal. Features: PTZ control, video live/playback, two way audio, video recording on iOS device.
+    + Link:https://itunes.apple.com/gb/app/justconnect+/id599879455
 
 - **mydlink Baby Camera Monitor(iOS)**
-    + 負責：iOS client
-    + 技術：Objective-C、Socket、Video decode/encode
-    + 效益：搭配嬰兒監看攝影機的對應App應用程式，為硬體搭配軟體的銷售方式，打敗國內外的軟體廠商取得D-Link的開發授權。
-    + 網址：https://itunes.apple.com/gb/app/mydlink-baby-cameramonitor/id718860628
+    + Responsible:iOS client
+    + Skills:Objective-C, Socket, Video decode/encode
+    + Benefit:App that collocation with D-Link babycam, also ODM for D-Link. Support 2 different manufacture camera, about 10 different models. Features: Video monitor, temperature high/low detection, sound detection(baby cry), movement detection, two way audio, PTZ control, music playback from SD card, event recording, event notify with APNS. use HTTP calling API or C library to interactive with babycam.
+    + Link:https://itunes.apple.com/gb/app/mydlink-baby-cameramonitor/id718860628
 
 ---
-#### 建騰創達
-- **NVR系統(Web)**
-    + 負責：Web client、System Architecture、CGI Design、UI、UX
-    + 技術：JavaScript、jQuery、HTML、CSS、XML、AJAX、ActiveX(IE Only，Support IE 6)、Obfuscated code、Visual SourceSafe
-    + 效益：開發的技術大致同旭人科技 - NVR Web client，不贅述。 這時候開始出現JS的框架，經過研究後從YUI、prototype、jQuery中選擇了jQuery作為框架， 另外兩個沒雀屏中選的近幾年已經陸續宣告停止開發，NVR開發花了1年半，至今還是ACTi的客戶解決方案， 在windows(software NVR)跟linux(standalone NVR)平台上，軟體銷售超過5年，且非隨硬體搭售的免費版本。
-    + 網址：http://www.acti.com/products/software-nvr
+#### ACTi Corporation
+- **NVR Client(Web)**
+    + Responsible:Web client, System architecture, CGI design, UI, UX
+    + Skills:JavaScript, jQuery, HTML, CSS, XML, AJAX, ActiveX, Obfuscated, Visual SourceSafe
+    + Benefit:Development skill set pretty much like iSAP - NVR Web client. After study those JavaScript framework include YUI, prototype, jQuery we decide use jQuery. And the other frameworks are stopping development in recent years. NVR development time spent a year and half, it still ACTi's video surveillance solution today. Marketing sales more than 5 years in windows(software NVR) and linux(standalone NVR) platform, and it's not free bundle version that ship with IP camera, it charge $ by per channel.
+    + Link:http://www.acti.com/products/software-nvr
 
 ---
-#### 國家研究院 - 國家高速網路與計算中心
-- **工時系統 - 以ABC(Activity-Based Costing)為基礎(Web)**
-    + 負責：Web client系統開發、back-end web server、DB server建立
-    + 技術：JBoss AS、Java、JSP、Oracle
-    + 效益：ABC是一套以作業為基本的成本分析法，建構工時系統來分析各研究院、
-    各研究人員所花費在各專案的時間 研究產出、論文、實驗、上課進修等成本，來估算推動各專案所耗費的人力成本。 此系統是國網中心所開發，完成後導入至國家研究院轄下共10個實驗研究單位。
+#### NARLabs - NCHC
+- **Man-hour System - base on ABC(Activity-Based Costing) methodology(Web)**
+    + Responsible:Web client, back-end web server, database build/maintain
+    + Skills:JBoss AS, Java, JSP, Oracle
+    + Benefit:Activity-based costing (ABC) is a costing methodology that identifies activities in an organization and assigns the cost of each activity with resources to all products and services according to the actual consumption by each. This system is development by NCHC, and promotion to NARLabs's ten different research units.
 
 ---
-#### TSMC - Fab 3 製程整合工程部
-- **EIP 系統 - 網站平台架構、提供個人化的情報彙整平台(Web)**
-    + 負責：Web client系統開發、預先運算視覺圖形(夜間，利用閒暇電腦跑叢集運算)、桌面應用程式設計。
-    + 技術：PHP、XOOPS、Linux、Apache、MySQL、Java Swing、Java Web Start
-    + 效益：以往工程師要開一堆視窗、登入一堆系統、用關鍵字去查詢各式資料，抓資料，跑報表，跑樞紐分析。 再複製貼上到Word、Excel、PowerPoint做簡報，現在只要登入EIP(Enterprise Information Portal)系統，一切就搞定了。 依照帳號資訊，提供個人化的資料，免搜尋、一鍵匯出資料(Excel、PDF)、線上email寄送等。推出後大獲好評，除了Fab3之外進而推廣到全廠區(竹科、南科、美國以及上海)。 另外也提供獨立的桌面應用程式，進行即時的資料搜尋、分析(效能耗費在client端)
+#### TSMC - Fab 3
+- **EIP System - SaaS, provide personalized aggregated data(Web)**
+    + Responsible:Web client, pre-render visual chart(at night, use idle computer running cluster calculation), Java desktop application.
+    + Skills:PHP, XOOPS, Linux, Apache, MySQL,J ava Swing, Java Web Start
+    + Benefit: In the past, engineers have to open a bunch of applications, login different services, use keyword to search many kinds of different data and gather information, running reports, execute pivot analysis. Finally copy & paste to Word, Excel and PowerPoint for review presentation. Now they only need to login EIP(Enterprise Information Portal), everything is ready for you. By valid your account information, provide personalized data that you want to know without searching and waiting. Press one button to export data as Excel/PDF without copy & paste, online email forwarding to colleague without open mail client or even typing. Besides Fab 3 this system also promotion to other Fab(Hsinchu, Tainan, USA and Shanghai). Also provide Java desktop application to help engineers realtime analytics and filter data with visual chart.
 
 ---
-#### 台大 - 分子與細胞生物學研究所
-- **SARS基因特徵與藥物分析比對(Mac OS)**
-    + 負責：大數據(Big data)的DNA/RNA字串分割、比對網路資料庫、找出類似人體基因、比對抗藥性
-    + 技術：Mac Cocoa、Regular Express、Socket、Multi-threading、SQLite
-    + 效益：SARS爆發期間，從1萬種已知藥物中尋找能抵抗SARS的有效藥物，透過開放式資料庫(學術界共享)的資源， 比對SARS基因跟人類基因的關聯程度，將曠日廢時的工作變成自動進行，中斷後能重啟且視覺化進度。
+#### NTU - Institute of Molecular and Cellular Biology
+- **SARS gene feature and medication analysis comparison(Mac OS)**
+    + Responsible:Big data DNA/RNA segment split, compare with online database, to find a similar human gene and compared medication resistance.
+    + Skills:Mac Cocoa, Regular express, Socket, Multi-threading, SQLite
+    + Benefit:During SARS outbreak, trying to find effective medication from 10K+ a known medicine. Use open database(academia sharing) resources to compare SARS gene and human gene resemblance, helping the time-consuming job by automated processing, can pause and resume from break point, and provide visual chart interface.
