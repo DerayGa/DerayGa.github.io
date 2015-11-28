@@ -27,7 +27,7 @@ http://www.deray.org
 ## 專長：
 - **Programing:** C#(.NET)、Objective-C(iOS)、JavaScript、jQuery、React、HTML5、CSS3、PHP、Java
 - **Database:** SQL(MySQL、SQL Server)、noSQL(MongoDB)
-- **Server:** node.js、Apache、tomcat、JBoos AS
+- **Server:** node.js、Apache、tomcat、JBoss AS
 - **Revision control:** Git、SNV、Visual SourceSafe
 - **Other:** RESTful API、JSON、XML、 Responsive Web Design、Material UI
 - **IDE:** XCode、AppCode、Visual Studio、Sublime Text
@@ -54,7 +54,7 @@ http://www.deray.org
 ## 任職:
 |         公司                     |       時間      |
 |:--------------------------------:|:---------------:|
-| 台達研究院    Delta Rearch Center|    2015/7 ~ 今  |
+| 台達研究院  Delta Research Center|    2015/7 ~ 今  |
 | 旭人科技    iSAP Solution        | 2011/6 ~ 2015/3 |
 | 建騰創達    ACTi Corporation     | 2008/7 ~ 2011/5 |
 | 國家高速網路與計算中心    NCHC   | 2007/6 ~ 2008/6 |
@@ -131,7 +131,7 @@ http://www.deray.org
 - **EIP 系統 - 網站平台架構、提供個人化的情報彙整平台(Web)**
     + 負責：Web client系統開發、預先運算視覺圖形(夜間，利用閒暇電腦跑叢集運算)、桌面應用程式設計。
     + 技術：PHP、XOOPS、Linux、Apache、MySQL、Java Swing、Java Web Start
-    + 效益：以往工程師要開一堆視窗、登入一堆系統、用關鍵字去查詢各式資料，抓資料，跑報表，跑樞紐分析。 再複製貼上到Word、Excel、PowerPoint做簡報，現在只要登入EIP系統，一切就搞定了。 依照帳號資訊，提供個人化的資料，免搜尋、一鍵匯出資料(Excel、PDF)、線上email寄送等。推出後大獲好評，除了Fab3之外進而推廣到全廠區(竹科、南科、美國以及上海)。 另外也提供獨立的桌面應用程式，進行即時的資料搜尋、分析(效能耗費在client端)
+    + 效益：以往工程師要開一堆視窗、登入一堆系統、用關鍵字去查詢各式資料，抓資料，跑報表，跑樞紐分析。 再複製貼上到Word、Excel、PowerPoint做簡報，現在只要登入EIP(Enterprise Information Portal)系統，一切就搞定了。 依照帳號資訊，提供個人化的資料，免搜尋、一鍵匯出資料(Excel、PDF)、線上email寄送等。推出後大獲好評，除了Fab3之外進而推廣到全廠區(竹科、南科、美國以及上海)。 另外也提供獨立的桌面應用程式，進行即時的資料搜尋、分析(效能耗費在client端)
 
 ---
 #### 台大 - 分子與細胞生物學研究所
