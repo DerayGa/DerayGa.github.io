@@ -97,7 +97,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Benefit:POS Transaction Tracker combine NVR(support multi brand NVR) and integrate with many different POS system. Provide video surveillance and POS transaction information, very useful for retail loss prevention, ODM to Salient Corp.(USA). In the past, manager need spent several months to investigate the transaction fraud, now can use "Unusual Transactions Alert" to initiative notify, within live video monitor/playback and remote access control, manager can collect evidence from all branch store in his office and dismiss employee immediately.
     + Link:http://www.salientsys.com/products/pos-transaction-tracker
 
-- **D-Link Justconnect(iOS)+**
+- **D-Link Justconnect+(iOS)**
     + Responsible:iOS client
     + Skills:Objective-C, Socket, Networking, Video decode/encode
     + Benefit:ODM for D-Link, obtain profit about 10 million NTD per month. Allow user connect to D-Link IP camera/NVR via direct connection or through mydlink web portal. Features: PTZ control, video live/playback, two way audio, video recording on iOS device.
