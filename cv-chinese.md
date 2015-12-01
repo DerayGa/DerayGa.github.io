@@ -137,5 +137,5 @@ http://www.deray.org
 #### 台大 - 分子與細胞生物學研究所
 - **SARS基因特徵與藥物分析比對(Mac OS)**
     + 負責：大數據(Big data)的DNA/RNA字串分割、比對網路資料庫、找出類似人體基因、比對抗藥性
-    + 技術：Mac Cocoa、Regular Express、Socket、Multi-threading、SQLite
+    + 技術：Mac Cocoa、Regular Expression、Socket、Multi-threading、SQLite
     + 效益：SARS爆發期間，從1萬種已知藥物中尋找能抵抗SARS的有效藥物，透過開放式資料庫(學術界共享)的資源， 比對SARS基因跟人類基因的關聯程度，將曠日廢時的工作變成自動進行，中斷後能重啟且視覺化進度。

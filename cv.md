@@ -135,5 +135,5 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 #### NTU - Institute of Molecular and Cellular Biology
 - **SARS gene feature and medication analysis comparison(Mac OS)**
     + Responsible:Big data DNA/RNA segment split, compare with online database, to find a similar human gene and compared medication resistance.
-    + Skills:Mac Cocoa, Regular express, Socket, Multi-threading, SQLite
+    + Skills:Mac Cocoa, Regular Expression, Socket, Multi-threading, SQLite
     + Benefit:During SARS outbreak, trying to find effective medication from 10K+ a known medicine. Use open database(academia sharing) resources to compare SARS gene and human gene resemblance, helping the time-consuming job by automated processing, can pause and resume from break point, and provide visual chart interface.
