@@ -2,6 +2,7 @@
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
+[中文版](slide.html?l=c)
 ---
 
 ## Bio

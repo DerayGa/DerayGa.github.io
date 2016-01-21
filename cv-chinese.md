@@ -1,7 +1,8 @@
-## 薛德瑞
+# 薛德瑞
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
+[English Ver.](slide.html)
 ---
 
 ## 簡歷
