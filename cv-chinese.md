@@ -1,8 +1,13 @@
 ## 薛德瑞
+
+![Deray](https://derayga.github.io/image/me.jpg)
+
+---
+
+## 簡歷
 男，1980年10月10日出生，35歲。188公分，80公斤。
 
 役畢-憲兵司令部-機車連-下士，已婚，養貓，宜蘭人，
-![Deray](https://derayga.github.io/image/me.jpg)
 
 #### 維基百科：
 https://zh.wikipedia.org/zh-tw/薛德瑞
@@ -11,20 +16,20 @@ https://zh.wikipedia.org/zh-tw/薛德瑞
 http://www.deray.org
 
 ---
+
 ## 學歷：
 台灣科技大學-資訊工程系-學士。
 
----
 ## 自我介紹：
 熟悉 .NET、iOS、Web front-end專案開發。
 無可自拔的熱愛寫程式，程式不只是我的工作，而是我的生活，喜歡研究新的技術。 卻不死忠的擁抱不放，自我嚴謹的開發規範，專案的架構分析、設計與分工。 懂專案管理的技術底軟體工程師，走敏捷式開發，力求期限內交件與完美品質。
 
 ---
+
 ## 薪資：
 - **最高:** 85K/月, 1.5M/年。
 - **期望:** 90K/月, 1.25M/年+獎金/股票
 
----
 ## 專長：
 - **Programing:** C#(.NET)、Objective-C(iOS)、JavaScript、jQuery、React、HTML5、CSS3、PHP、Java
 - **Database:** SQL(MySQL、SQL Server)、noSQL(MongoDB)
@@ -34,16 +39,28 @@ http://www.deray.org
 - **IDE:** XCode、AppCode、Visual Studio、Sublime Text
 
 ---
+
 ## 活動：
-* [2015年: **環日** 九州-本州-北海道-本州-四國-九州 - 6,381 KM / 52天](http://nippon.deray.org/)
-* [2013年: **青藏公路** 蘭州-青海-西藏(拉薩) - 978 KM / 14天](http://blog.deray.org/tibet/)
-* [2007年: **橫跨歐亞** 中國(北京)-哈薩克-俄羅斯-白俄羅斯-波蘭-德國-法國(巴黎)-台灣 - 15,401 KM /155天](http://btp.deray.org/)
+* [2015年: **環日** - 6,381 KM / 52天](http://nippon.deray.org/)
+
+  九州-本州-北海道-本州-四國-九州
+
+* [2013年: **青藏公路** - 978 KM / 14天](http://blog.deray.org/tibet/)
+
+  蘭州-青海-西藏(拉薩)
+
+* [2007年: **橫跨歐亞** - 15,401 KM /155天](http://btp.deray.org/)
+
+  中國(北京)-哈薩克-俄羅斯-白俄羅斯-波蘭-德國-法國(巴黎)-台灣
+
 * [2005年: **環法** - 5,349 KM / 51天](http://france.deray.org/)
+
 * [2003年: **環台** - 1,100 KM / 6天](http://bicycle.deray.org/)
 
 (皆為單人，以單車旅行方式進行)
 
 ---
+
 ## 語言：
 |   語系  |    程度     |
 |:-------:|:-----------:|
@@ -51,7 +68,6 @@ http://www.deray.org
 |   英文  |聽說讀寫/無礙|
 |   日文  |  聽說/略懂  |
 
----
 ## 任職:
 |         公司                     |       時間      |
 |:--------------------------------:|:---------------:|
@@ -64,14 +80,17 @@ http://www.deray.org
  (職稱皆為資深/軟體工程師)
 
 ---
+
 ## 專案：
 
-#### 旭人科技
+### 旭人科技
 - **NVR系統(Web)**
     + 負責：Web client、System Architecture、CGI Design、UI、UX
     + 技術：JavaScript、jQuery、HTML5、CSS3、XML、JSON、AJAX、ActiveX、
         Cross-Browser Compatible、Obfuscated Subversion
     + 效益：NVR(Network Video Recorder)的功能是用來管理IP Camera，以物件導向的架構開發SPA(Single Page Application)的NVR Web client，使用程式碼控管進行多人專案協作。 新設計的plugin架構，透過XML定義結構，能開發符合客戶需求的加值服務，而不需要修改/損毀基礎系統。 Release時導入程式碼混淆、合併的流程，不僅能保護程式碼，且有效的減少.js檔案數量(323多個->6個) 大幅減少HTTP的往返，搭配快取機制，能加快網頁載入的速度至一瞬間。 除了IE(8+)之外，另外還支援Firefox、Chrome、Safari等各大瀏覽器，並提供Smartphone跟Tablet的使用介面。使用統一的設定頁面提供超過十多個廠牌的攝影機設定，ODM給數家廠商銷售。
+
+---
 
 - **NVR系統(Windows/Linux)**
     + 負責：Windows client、Linux client
@@ -83,6 +102,8 @@ http://www.deray.org
     + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
     + 效益：CMS(Centralized Management Software)的功能是用於管理NVR，一台NVR至多可以管理64支攝影機，而一台CMS至多可以管理16台NVR。 相當於1024台攝影機，使用者可以透過CMS監控任一台NVR的任一支攝影機影像，除了監看之外， 還有事件通知、錄影異常通知、使用者權限控管、同步影像回放、匯出等功能。 CMS除了如上述的ODM販售之外，也同步安裝在台灣多個設施，像是高雄佛光山佛陀紀念館、 捷運信義線、捷運車廂、桃園機場第2航廈、台大醫院、南港中國信託金融園區等。
 
+---
+
 - **IVS系統(Windows)**
     + 負責：Windows client
     + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
@@ -92,6 +113,8 @@ http://www.deray.org
     + 負責：Windows client
     + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
     + 效益：FOS(Failover System)為NVR之故障備援系統，負責偵測複數NVR的連線狀態、主機、硬碟、CPU等狀態。 提供健康度的分析，讓系統業者能掌握每台NVR的負荷程度，以及提前進行故障排除。 而當NVR發生故障時，FOS會備份故障NVR的系統組態，複製到一台待機的NVR上，然後啟動它作為備援。 只要花費額外一台待機NVR的機器，就能提供自動故障備援的功能，對業者來說是很好的投資。FOS使用在監獄系統、還有銀行業者等處。
+
+---
 
 - **POS Transaction Tracker系統(Windows)**
     + 負責：Windows client
@@ -105,6 +128,8 @@ http://www.deray.org
     + 效益：除了幫D-Link代工之外，也替公司帶來每個月1千萬的營收。 此App，是免費下載，D-Link會依照攝影機的出貨量提撥費用給旭人科技，非一次性買斷。並不提供程式碼給D-Link。
     + 網址：https://itunes.apple.com/gb/app/justconnect+/id599879455
 
+---
+
 - **mydlink Baby Camera Monitor(iOS)**
     + 負責：iOS client
     + 技術：Objective-C、Socket、Video decode/encode
@@ -112,7 +137,8 @@ http://www.deray.org
     + 網址：https://itunes.apple.com/gb/app/mydlink-baby-cameramonitor/id718860628
 
 ---
-#### 建騰創達
+
+### 建騰創達
 - **NVR系統(Web)**
     + 負責：Web client、System Architecture、CGI Design、UI、UX
     + 技術：JavaScript、jQuery、HTML、CSS、XML、AJAX、ActiveX(IE Only，Support IE 6)、Obfuscated code、Visual SourceSafe
@@ -120,7 +146,8 @@ http://www.deray.org
     + 網址：http://www.acti.com/products/software-nvr
 
 ---
-#### 國家研究院 - 國家高速網路與計算中心
+
+### 國家研究院 - 國家高速網路與計算中心
 - **工時系統 - 以ABC(Activity-Based Costing)為基礎(Web)**
     + 負責：Web client系統開發、back-end web server、DB server建立
     + 技術：JBoss AS、Java、JSP、Oracle
@@ -128,14 +155,16 @@ http://www.deray.org
     各研究人員所花費在各專案的時間 研究產出、論文、實驗、上課進修等成本，來估算推動各專案所耗費的人力成本。 此系統是國網中心所開發，完成後導入至國家研究院轄下共10個實驗研究單位。
 
 ---
-#### TSMC - Fab 3 製程整合工程部
+
+### TSMC - Fab 3 製程整合工程部
 - **EIP 系統 - 網站平台架構、提供個人化的情報彙整平台(Web)**
     + 負責：Web client系統開發、預先運算視覺圖形(夜間，利用閒暇電腦跑叢集運算)、桌面應用程式設計。
     + 技術：PHP、XOOPS、Linux、Apache、MySQL、Java Swing、Java Web Start
     + 效益：以往工程師要開一堆視窗、登入一堆系統、用關鍵字去查詢各式資料，抓資料，跑報表，跑樞紐分析。 再複製貼上到Word、Excel、PowerPoint做簡報，現在只要登入EIP(Enterprise Information Portal)系統，一切就搞定了。 依照帳號資訊，提供個人化的資料，免搜尋、一鍵匯出資料(Excel、PDF)、線上email寄送等。推出後大獲好評，除了Fab3之外進而推廣到全廠區(竹科、南科、美國以及上海)。 另外也提供獨立的桌面應用程式，進行即時的資料搜尋、分析(效能耗費在client端)
 
 ---
-#### 台大 - 分子與細胞生物學研究所
+
+### 台大 - 分子與細胞生物學研究所
 - **SARS基因特徵與藥物分析比對(Mac OS)**
     + 負責：大數據(Big data)的DNA/RNA字串分割、比對網路資料庫、找出類似人體基因、比對抗藥性
     + 技術：Mac Cocoa、Regular Expression、Socket、Multi-threading、SQLite

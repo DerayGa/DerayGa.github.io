@@ -43,7 +43,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 ## Journey:
 * [2015: **Japan** - 6,381 KM / 52 Days](http://nippon.deray.org/)
 
-    Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu
+  Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu
 
 * [2013: **Tibet Highway** - 978 KM / 14 Days](http://blog.deray.org/tibet/)
 
@@ -136,6 +136,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Link:https://itunes.apple.com/gb/app/mydlink-baby-cameramonitor/id718860628
 
 ---
+
 ### ACTi Corporation
 - **NVR Client(Web)**
     + Responsible:Web client, System architecture, CGI design, UI, UX
@@ -144,6 +145,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Link:http://www.acti.com/products/software-nvr
 
 ---
+
 ### NARLabs - NCHC
 - **Man-hour System - base on ABC(Activity-Based Costing) methodology(Web)**
     + Responsible:Web client, back-end web server, database build/maintain
@@ -151,6 +153,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Benefit:Activity-based costing (ABC) is a costing methodology that identifies activities in an organization and assigns the cost of each activity with resources to all products and services according to the actual consumption by each. This system is development by NCHC, and promotion to NARLabs's ten different research units.
 
 ---
+
 ### TSMC - Fab 3
 - **EIP System - SaaS, provide personalized aggregated data(Web)**
     + Responsible:Web client, pre-render visual chart(at night, use idle computer running cluster calculation), Java desktop application.
@@ -158,6 +161,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Benefit: In the past, engineers have to open a bunch of applications, login different services, use keyword to search many kinds of different data and gather information, running reports, execute pivot analysis. Finally copy & paste to Word, Excel and PowerPoint for review presentation. Now they only need to login EIP(Enterprise Information Portal), everything is ready for you. By valid your account information, provide personalized data that you want to know without searching and waiting. Press one button to export data as Excel/PDF without copy & paste, online email forwarding to colleague without open mail client or even typing. Besides Fab 3 this system also promotion to other Fab(Hsinchu, Tainan, USA and Shanghai). Also provide Java desktop application to help engineers realtime analytics and filter data with visual chart.
 
 ---
+
 ### NTU - Institute of Molecular and Cellular Biology
 - **SARS gene feature and medication analysis comparison(Mac OS)**
     + Responsible:Big data DNA/RNA segment split, compare with online database, to find a similar human gene and compared medication resistance.
