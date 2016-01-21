@@ -36,10 +36,10 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 ---
 ## Journey:
 * [2015: **Japan** Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu - 6,381 KM / 52 Days](http://nippon.deray.org/)
-* [2013年: **Tibet Highway** Lanzhou-Qinghai-Tibet (Lhasa) - 978 KM / 14 Days](http://blog.deray.org/tibet/)
-* [2007年: **Beijing to Paris** China(Beijing)-Kazakhstan-Russia-Belarus-Poland-Germany-Paris(Paris)-Taiwan - 15,401 KM /155 Days](http://btp.deray.org/)
-* [2005年: **France** - 5,349 KM / 51 Days](http://france.deray.org/)
-* [2003年: **Taiwan** - 1,100 KM / 6 Days](http://bicycle.deray.org/)
+* [2013: **Tibet Highway** Lanzhou-Qinghai-Tibet (Lhasa) - 978 KM / 14 Days](http://blog.deray.org/tibet/)
+* [2007: **Beijing to Paris** China(Beijing)-Kazakhstan-Russia-Belarus-Poland-Germany-Paris(Paris)-Taiwan - 15,401 KM /155 Days](http://btp.deray.org/)
+* [2005: **France** - 5,349 KM / 51 Days](http://france.deray.org/)
+* [2003: **Taiwan** - 1,100 KM / 6 Days](http://bicycle.deray.org/)
 
 (Traveling with bicycle, alone)
 
