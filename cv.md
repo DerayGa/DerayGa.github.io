@@ -2,6 +2,7 @@
 Male, born in 1980/10/10 Taiwan, 35 years old, height 188 cm, weight 80 kg.
 
 Military police command - Motorcycle company - Corporal, married, one cat.
+![Deray](https://derayga.github.io/image/me.jpg)
 
 #### Wikipedia:
 https://zh.wikipedia.org/zh-tw/%E8%96%9B%E5%BE%B7%E7%91%9E
