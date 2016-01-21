@@ -1,8 +1,13 @@
-## Deray Hsueh
+# Deray Hsueh
+
+![Deray](https://derayga.github.io/image/me.jpg)
+
+---
+
+## Bio
 Male, born in 1980/10/10 Taiwan, 35 years old, height 188 cm, weight 80 kg.
 
 Military police command - Motorcycle company - Corporal, married, one cat.
-![Deray](https://derayga.github.io/image/me.jpg)
 
 #### Wikipedia:
 https://zh.wikipedia.org/zh-tw/%E8%96%9B%E5%BE%B7%E7%91%9E
@@ -11,20 +16,20 @@ https://zh.wikipedia.org/zh-tw/%E8%96%9B%E5%BE%B7%E7%91%9E
 http://www.deray.org
 
 ---
+
 ## Education:
 National Taiwan University of Science and Technology - Computer Science and Information Engineering
 
----
 ## About:
 Familiar with .NET, iOS, Web front-end product development.
 Enthusiasm programer, clean coder. I love coding, be a programer is not just my job, but my life. Like to study new technologies about mobile and front-end. Software development in rigorous specification such as code review, coding style and refactoring, Have ability to analysis project, design system architecture and task assignment within agile development. Understanding project management also have fully software engineer skill. Deliver high quality product in defined schedule.
 
 ---
+
 ## Salary:
 - **Highest:** 85K/Month, 1.5M/Year.
 - **Expect:** 90K/Month, 1.25M/Year+bonus
 
----
 ## Skills:
 - **Programing:** C#(.NET), Objective-C(iOS), JavaScript, jQuery, React, HTML5, CSS3, PHP, Java
 - **Database:** SQL(MySQL,SQL Server), noSQL(MongoDB)
@@ -34,16 +39,28 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 - **IDE:** XCode, AppCode, Visual Studio, Sublime Text
 
 ---
+
 ## Journey:
-* [2015: **Japan** Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu - 6,381 KM / 52 Days](http://nippon.deray.org/)
-* [2013: **Tibet Highway** Lanzhou-Qinghai-Tibet (Lhasa) - 978 KM / 14 Days](http://blog.deray.org/tibet/)
-* [2007: **Beijing to Paris** China(Beijing)-Kazakhstan-Russia-Belarus-Poland-Germany-Paris(Paris)-Taiwan - 15,401 KM /155 Days](http://btp.deray.org/)
+* [2015: **Japan** - 6,381 KM / 52 Days](http://nippon.deray.org/)
+
+    Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu
+
+* [2013: **Tibet Highway** - 978 KM / 14 Days](http://blog.deray.org/tibet/)
+
+  Lanzhou-Qinghai-Tibet (Lhasa)
+
+* [2007: **Beijing to Paris** - 15,401 KM /155 Days](http://btp.deray.org/)
+
+  China(Beijing)-Kazakhstan-Russia-Belarus-Poland-Germany-Paris(Paris)-Taiwan
+
 * [2005: **France** - 5,349 KM / 51 Days](http://france.deray.org/)
+
 * [2003: **Taiwan** - 1,100 KM / 6 Days](http://bicycle.deray.org/)
 
 (Traveling with bicycle, alone)
 
 ---
+
 ## Languages:
 | Language  |  Level  |
 |:---------:|:-------:|
@@ -51,7 +68,6 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 |  English  |  Well   |
 |  Japanese |  Little |
 
----
 ## Experience:
 |     Corporation      |   Time Period   |
 |:--------------------:|:---------------:|
@@ -64,13 +80,16 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
  (Title: Senior/Software Engineer)
 
 ---
+
 ## Project:
 
-#### iSAP Solution
+### iSAP Solution
 - **NVR Client(Web)**
     + Responsible:Web client, System architecture, CGI design, UI, UX
     + Skills:JavaScript, jQuery, HTML5, CSS3, XML, JSON, AJAX, ActiveX, cross-browser Compatible, obfuscated, subversion
     + Benefit:NVR(Network Video Recorder) is use to management IP cameras. I use object-oriented architecture to development SPA(Single Page Application) NVR web client, and use revision control system to handle multi programer co-work. With whole new plugin design, use XML to define structure/property/method, can easily implement value-added features for different customer without modify/damage base NVR architecture. Processing code obfuscated and bundle before release product, it's not only protecting source code but also decrease .js file amount from 323 to just 6. Greatly reduce HTTP connections number, within cache control I can speed up web page loading time to blink of eye. Supported cross-browser include IE, Firefox, Chrome, Safari, smartphone, tablet browser. Allow user config more than dozen of different manufacture IP camera with standard setting config interface.
+
+---
 
 - **NVR Client(Windows/Linux)**
     + Responsible:Windows client, Linux client
@@ -82,6 +101,8 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Skills:C#.NET, XML, JSON, AJAX, COM, DLL encryption
     + Benefit:CMS(Centralized Management Software) is use to management NVR. Single NVR can manage up to 64 IP cameras but single CMS can manage up to 16 NVR. Equivalent to 1024 IP cameras, user can use CMS to monitor any camera in any NVR. Besides video monitor, CMS also provide event push notify, video recording error alert, user permission control, synchronize video playback, video exporting and much more features.
 
+---
+
 - **IVS Client(Windows)**
     + Responsible:Windows client
     + Skills:C#.NET, XML, JSON, AJAX, COM, DLL encryption
@@ -91,6 +112,8 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Responsible:Windows client
     + Skills:C#.NET, XML, JSON, AJAX, DLL encryption
     + Benefit:FOS(Failover System) is NVR backup/failover recovery system, responsible to monitor multi NVR server's connection status, hard drive space usage, CPU loading. Provide health analytic allow system administrator can control NVR loading and status, troubleshooting before NVR malfunction down. FOS will backup NVR's system configuration and clone to another standby NVR, after automatic reboot backup NVR as a NVR server. FOS have great potential in prison and financial Industry.
+
+---
 
 - **POS Transaction Tracker(Windows)**
     + Responsible:Windows client
@@ -104,6 +127,8 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Benefit:ODM for D-Link, obtain profit about 10 million NTD per month. Allow user connect to D-Link IP camera/NVR via direct connection or through mydlink web portal. Features: PTZ control, video live/playback, two way audio, video recording on iOS device.
     + Link:https://itunes.apple.com/gb/app/justconnect+/id599879455
 
+---
+
 - **mydlink Baby Camera Monitor(iOS)**
     + Responsible:iOS client
     + Skills:Objective-C, Socket, Video decode/encode
@@ -111,7 +136,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Link:https://itunes.apple.com/gb/app/mydlink-baby-cameramonitor/id718860628
 
 ---
-#### ACTi Corporation
+### ACTi Corporation
 - **NVR Client(Web)**
     + Responsible:Web client, System architecture, CGI design, UI, UX
     + Skills:JavaScript, jQuery, HTML, CSS, XML, AJAX, ActiveX, Obfuscated, Visual SourceSafe
@@ -119,21 +144,21 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Link:http://www.acti.com/products/software-nvr
 
 ---
-#### NARLabs - NCHC
+### NARLabs - NCHC
 - **Man-hour System - base on ABC(Activity-Based Costing) methodology(Web)**
     + Responsible:Web client, back-end web server, database build/maintain
     + Skills:JBoss AS, Java, JSP, Oracle
     + Benefit:Activity-based costing (ABC) is a costing methodology that identifies activities in an organization and assigns the cost of each activity with resources to all products and services according to the actual consumption by each. This system is development by NCHC, and promotion to NARLabs's ten different research units.
 
 ---
-#### TSMC - Fab 3
+### TSMC - Fab 3
 - **EIP System - SaaS, provide personalized aggregated data(Web)**
     + Responsible:Web client, pre-render visual chart(at night, use idle computer running cluster calculation), Java desktop application.
     + Skills:PHP, XOOPS, Linux, Apache, MySQL,J ava Swing, Java Web Start
     + Benefit: In the past, engineers have to open a bunch of applications, login different services, use keyword to search many kinds of different data and gather information, running reports, execute pivot analysis. Finally copy & paste to Word, Excel and PowerPoint for review presentation. Now they only need to login EIP(Enterprise Information Portal), everything is ready for you. By valid your account information, provide personalized data that you want to know without searching and waiting. Press one button to export data as Excel/PDF without copy & paste, online email forwarding to colleague without open mail client or even typing. Besides Fab 3 this system also promotion to other Fab(Hsinchu, Tainan, USA and Shanghai). Also provide Java desktop application to help engineers realtime analytics and filter data with visual chart.
 
 ---
-#### NTU - Institute of Molecular and Cellular Biology
+### NTU - Institute of Molecular and Cellular Biology
 - **SARS gene feature and medication analysis comparison(Mac OS)**
     + Responsible:Big data DNA/RNA segment split, compare with online database, to find a similar human gene and compared medication resistance.
     + Skills:Mac Cocoa, Regular Expression, Socket, Multi-threading, SQLite
