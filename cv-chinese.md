@@ -97,24 +97,24 @@ http://www.deray.org
     + 技術：C#.NET、XML、JSON、AJAX、COM、Qt、dll encryption
     + 效益：待Web client穩定後，接著開發Windows版本的NVR client，它不同於Web Client的地方在於， 原生的應用程式，擁有很強大的執行效能，且透過.NET函式庫，能執行的事情更廣泛了，比如搖桿的支援。 最多可以同時監控64支攝影機的即時影像，記憶體的需求遠大於4GB，所以必須bulid 64bit的版本。 為了一致的使用者體驗，Windows的版本外觀和操作的流程完成和Web版無異。 並且使用相同的CGI/API與server端傳遞資料，且使用相同的XML資料結構。 在Linux standalone的版本。則使用Qt開發原生執行的Linux client。 如同Web Client，在release的版本之中，會針對dll檔案做額外的加密混淆技術，避免被反編譯。
 
+---
+
 - **CMS系統(Windows)**
     + 負責：Windows client
     + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
     + 效益：CMS(Centralized Management Software)的功能是用於管理NVR，一台NVR至多可以管理64支攝影機，而一台CMS至多可以管理16台NVR。 相當於1024台攝影機，使用者可以透過CMS監控任一台NVR的任一支攝影機影像，除了監看之外， 還有事件通知、錄影異常通知、使用者權限控管、同步影像回放、匯出等功能。 CMS除了如上述的ODM販售之外，也同步安裝在台灣多個設施，像是高雄佛光山佛陀紀念館、 捷運信義線、捷運車廂、桃園機場第2航廈、台大醫院、南港中國信託金融園區等。
-
----
 
 - **IVS系統(Windows)**
     + 負責：Windows client
     + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
     + 效益：IVS(Intelligence Video Surveillance)為NVR系統之加值服務，提供影像識別辨識、偵測等功能。IVS在Retail市場效益很好，業者想知道人潮的走向、在商品面前的停留時間。 禁止區域的進入預防，來訪客人的識別和計數來客人數，來客時間週期報表等。
 
+---
+
 - **FOS系統(Windows)**
     + 負責：Windows client
     + 技術：C#.NET、XML、JSON、AJAX、COM、DLL encryption
     + 效益：FOS(Failover System)為NVR之故障備援系統，負責偵測複數NVR的連線狀態、主機、硬碟、CPU等狀態。 提供健康度的分析，讓系統業者能掌握每台NVR的負荷程度，以及提前進行故障排除。 而當NVR發生故障時，FOS會備份故障NVR的系統組態，複製到一台待機的NVR上，然後啟動它作為備援。 只要花費額外一台待機NVR的機器，就能提供自動故障備援的功能，對業者來說是很好的投資。FOS使用在監獄系統、還有銀行業者等處。
-
----
 
 - **POS Transaction Tracker系統(Windows)**
     + 負責：Windows client
@@ -122,13 +122,13 @@ http://www.deray.org
     + 效益：POS Transaction Tracker為結合NVR(包括但不限於自家的NVR)與眾多廠牌POS機器的整合系統。 可以提供業者影像監控與POS交易資料的有用情報，多用於企業內部防賊(Loss Prevention)ODM給美國Salient銷售，已安裝於許多retail領域、連鎖超商、花藝店、餐飲店等。成效非常之好，原本要花費數個月才能調查出監守自盜的事件。現在可以透過異常交易指令通報， 配合即時影像/回放影像，再搭配上遠端監控操作，老闆在總部就可以蒐證，然後報警開除員工。
     + 網址：http://www.salientsys.com/products/pos-transaction-tracker
 
+---
+
 - **D-Link Justconnect+(iOS)**
     + 負責：iOS client
     + 技術：Objective-C、Socket、Video decode/encode
     + 效益：除了幫D-Link代工之外，也替公司帶來每個月1千萬的營收。 此App，是免費下載，D-Link會依照攝影機的出貨量提撥費用給旭人科技，非一次性買斷。並不提供程式碼給D-Link。
     + 網址：https://itunes.apple.com/gb/app/justconnect+/id599879455
-
----
 
 - **mydlink Baby Camera Monitor(iOS)**
     + 負責：iOS client
