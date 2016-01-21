@@ -2,6 +2,7 @@
 男，1980年10月10日出生，35歲。188公分，80公斤。
 
 役畢-憲兵司令部-機車連-下士，已婚，養貓，宜蘭人，
+![Deray](https://derayga.github.io/image/me.jpg)
 
 #### 維基百科：
 https://zh.wikipedia.org/zh-tw/薛德瑞
