@@ -2,12 +2,11 @@
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
-[中文版](slide.html?l=c)
+##### [中文版](slide.html?l=c) __________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv.md)
 ---
 
 ## Bio
-Male, born in 1980/10/10 Taiwan, 35 years old, height 188 cm, weight 80 kg.
-
+Male, born in 1980/10/10 Taiwan, 35 years old, height 188 cm, weight 80 kg.  
 Military police command - Motorcycle company - Corporal, married, one cat.
 
 #### Wikipedia:
@@ -19,7 +18,8 @@ http://www.deray.org
 ---
 
 ## Education:
-National Taiwan University of Science and Technology - Computer Science and Information Engineering
+National Taiwan University of Science and Technology -  
+Computer Science and Information Engineering
 
 ## About:
 Familiar with .NET, iOS, Web front-end product development.
@@ -42,16 +42,13 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 ---
 
 ## Journey:
-* [2015: **Japan** - 6,381 KM / 52 Days](http://nippon.deray.org/)
-
+* [2015: **Japan** - 6,381 KM / 52 Days](http://nippon.deray.org/)  
   Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu
 
-* [2013: **Tibet Highway** - 978 KM / 14 Days](http://blog.deray.org/tibet/)
-
+* [2013: **Tibet Highway** - 978 KM / 14 Days](http://blog.deray.org/tibet/)  
   Lanzhou-Qinghai-Tibet (Lhasa)
 
-* [2007: **Beijing to Paris** - 15,401 KM /155 Days](http://btp.deray.org/)
-
+* [2007: **Beijing to Paris** - 15,401 KM /155 Days](http://btp.deray.org/)  
   China(Beijing)-Kazakhstan-Russia-Belarus-Poland-Germany-Paris(Paris)-Taiwan
 
 * [2005: **France** - 5,349 KM / 51 Days](http://france.deray.org/)

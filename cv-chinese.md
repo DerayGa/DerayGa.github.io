@@ -2,12 +2,11 @@
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
-[English Ver.](slide.html)
+##### [English Ver.](slide.html) _________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv-chinese.md)
 ---
 
 ## 簡歷
-男，1980年10月10日出生，35歲。188公分，80公斤。
-
+男，1980年10月10日出生，35歲。188公分，80公斤。  
 役畢-憲兵司令部-機車連-下士，已婚，養貓，宜蘭人，
 
 #### 維基百科：
@@ -42,16 +41,13 @@ http://www.deray.org
 ---
 
 ## 活動：
-* [2015年: **環日** - 6,381 KM / 52天](http://nippon.deray.org/)
-
+* [2015年: **環日** - 6,381 KM / 52天](http://nippon.deray.org/)  
   九州-本州-北海道-本州-四國-九州
 
-* [2013年: **青藏公路** - 978 KM / 14天](http://blog.deray.org/tibet/)
-
+* [2013年: **青藏公路** - 978 KM / 14天](http://blog.deray.org/tibet/)  
   蘭州-青海-西藏(拉薩)
 
-* [2007年: **橫跨歐亞** - 15,401 KM /155天](http://btp.deray.org/)
-
+* [2007年: **橫跨歐亞** - 15,401 KM /155天](http://btp.deray.org/)  
   中國(北京)-哈薩克-俄羅斯-白俄羅斯-波蘭-德國-法國(巴黎)-台灣
 
 * [2005年: **環法** - 5,349 KM / 51天](http://france.deray.org/)
