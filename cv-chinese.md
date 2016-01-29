@@ -2,7 +2,7 @@
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
-##### [English Ver.](slide.html) _________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv-chinese.md)
+##### [English Ver.](slides.html) _________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv-chinese.md)
 ---
 
 ## 簡歷
