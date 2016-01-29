@@ -5,7 +5,6 @@
     <title>Deray CV</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-    <script src="js/jquery.min.js"></script>
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
@@ -23,18 +22,14 @@
      <textarea id="source"></textarea>
     <script src="js/remark-latest.min.js"></script>
     <script>
-      $().ready(function(){
-        var cv = "cv";
-        if(getUrlParameter("l") == "c"){
-          cv = "cv-chinese";
-        }
+      window.onload = function(){
+        var cv = (getUrlParameter("l") == "c")
+          ? "cv-chinese.md" : "cv.md";
 
-        $.get( "https://derayga.github.io/" + cv + ".md", function(data) {
-          $("#source").show();
-          $("#source").html(data);
-          remark.create();
+        remark.create({
+          sourceUrl: './' + cv,
         });
-      });
+      };
 
       function getUrlParameter(sParam) {
         var sPageURL = decodeURIComponent(window.location.search.substring(1)),
