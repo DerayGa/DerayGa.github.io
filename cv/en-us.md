@@ -2,7 +2,7 @@
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
-##### [中文版](/?l=c) __________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv/en-us.md)
+##### [中文版](/cv/?l=c) __________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv/en-us.md)
 ---
 
 ## Bio
