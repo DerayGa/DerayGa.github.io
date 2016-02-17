@@ -20,14 +20,14 @@
   </head>
   <body>
      <textarea id="source"></textarea>
-    <script src="js/remark-latest.min.js"></script>
+    <script src="../js/remark-latest.min.js"></script>
     <script>
       window.onload = function(){
         var cv = (getUrlParameter("l") == "c")
-          ? "cv-chinese.md" : "cv.md";
+          ? "zh-tw.md" : "en-us.md";
 
         remark.create({
-          sourceUrl: './' + cv,
+          sourceUrl: './cv/' + cv,
         });
       };
 
