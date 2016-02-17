@@ -2,7 +2,7 @@
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
-##### [English Ver.](/cv/) _________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv/zh-tw.md)
+##### [English Ver.](http://derayga.github.io/cv/) _________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv/zh-tw.md)
 ---
 
 ## 簡歷
