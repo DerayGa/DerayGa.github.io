@@ -13,23 +13,24 @@ Military police command - Motorcycle company - Corporal, married, one cat.
 https://zh.wikipedia.org/zh-tw/%E8%96%9B%E5%BE%B7%E7%91%9E
 
 #### Website:
-http://www.deray.org
+http://deray.org
 
 ---
 
 ## Education:
 National Taiwan University of Science and Technology -  
-Computer Science and Information Engineering
+Computer Science and Information Engineering - Bachelor
 
 ## About:
 Familiar with .NET, iOS, Web front-end product development.
+Proficient in Angular, React, Node.js, MongoDB, git, hybrid mobile app and DevOps integration.
 Enthusiasm programer, clean coder. I love coding, be a programer is not just my job, but my life. Like to study new technologies about mobile and front-end. Software development in rigorous specification such as code review, coding style and refactoring, Have ability to analysis project, design system architecture and task assignment within agile development. Understanding project management also have fully software engineer skill. Deliver high quality product in defined schedule.
 
 ---
 
 ## Salary:
-- **Highest:** 85K/Month, 1.5M/Year.
-- **Expect:** 90K/Month, 1.25M/Year+bonus
+- **Highest:** 85K/Month, 1.5M/Year+bonus
+
 
 ## Skills:
 - **Programing:** C#(.NET), Objective-C(iOS), JavaScript, jQuery, React, HTML5, CSS3, PHP, Java
@@ -75,11 +76,29 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 |  NARLabs - NCHC      | 2007/6 ~ 2008/6 |
 |  TSMC - Fab 3        | 2006/4 ~ 2007/3 |
 
- (Title: Senior/Software Engineer)
+ (Title: Senior* Software Engineer)
 
 ---
 
 ## Project:
+
+### Delta Research Center
+- **Security Surveillance Project - TwinBright(Mobile App)**
+- **European Customer Portal(Mobile App)**
+    + Responsible: IoT application, Web client, Hybrid Modile App, Backend server, System architecture, DevOps
+    + Skills:ESLint, ReactJS, React Native, JavaScrip tES6, git, Node.js, MongoDB, MQTT, socket
+
+- **FAE Support Platform - Ironman(Web)**
+- **Internal System Platform(Web)**
+- **Chrome extension development(Web)**
+    + Responsible:Technical study group participant and leader, Frontend/Backend technology exploration, System architecture, Scrum/Kanban flow integration
+    + Skills:ESLint, ReactJS, AngularJS, JavaScrip tES6, git, Node.js, MongoDB, MQTT, HTML5, CSS3, RWD, Synchronize environment setup on Mac OS X
+
+- **External&internal forum/event support**
+    + Responsible: tech forum assistance/video broadcast setup/multi-media material production, DevOps workshop assistance, Demo session circuit simulation
+    + Skills: IBM Sametime Connect, IBM Rational, Common Programming Model, Apple Keynote, iMovie, iPhoto, HTML5, Javascript, CSS3, Multithreaded simulation, git
+
+---
 
 ### iSAP Solution
 - **NVR Client(Web)**

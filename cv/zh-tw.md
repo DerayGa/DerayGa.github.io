@@ -13,7 +13,7 @@
 https://zh.wikipedia.org/zh-tw/薛德瑞
 
 #### 個人網站：
-http://www.deray.org
+http://deray.org
 
 ---
 
@@ -22,13 +22,13 @@ http://www.deray.org
 
 ## 自我介紹：
 熟悉 .NET、iOS、Web front-end專案開發。
+精通 Angular, React, Node.js, MongoDB, git, 跨平台 mobile app 以及 DevOps 導入。
 無可自拔的熱愛寫程式，程式不只是我的工作，而是我的生活，喜歡研究新的技術。 卻不死忠的擁抱不放，自我嚴謹的開發規範，專案的架構分析、設計與分工。 懂專案管理的技術底軟體工程師，走敏捷式開發，力求期限內交件與完美品質。
 
 ---
 
 ## 薪資：
-- **最高:** 85K/月, 1.5M/年。
-- **期望:** 90K/月, 1.25M/年+獎金/股票
+- **最高:** 85K/月, 1.5M/年+分紅
 
 ## 專長：
 - **Programing:** C#(.NET)、Objective-C(iOS)、JavaScript、jQuery、React、HTML5、CSS3、PHP、Java
@@ -74,7 +74,7 @@ http://www.deray.org
 | 國家高速網路與計算中心    NCHC   | 2007/6 ~ 2008/6 |
 | 台灣積體電路製造    TSMC         | 2006/4 ~ 2007/3 |
 
- (職稱皆為資深/軟體工程師)
+ (職稱皆為資深* 軟體工程師)
 
 ---
 
