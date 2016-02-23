@@ -82,12 +82,12 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 ## Project:
 
-- #### [Delta Research Center](#delta-research-center)
-- #### [iSAP Solution](#isap-solution)
-- #### [ACTi Corporation](#acti-corporation)
-- #### [NARLabs - NCHC](#narlabs---nchc)
-- #### [TSMC - Fab 3](#tsmc---fab-3)
-- #### [NTU - Institute of Molecular and Cellular Biology](#ntu---institure-of-molecular-and-cellular-biology)
+- [Delta Research Center](#delta-research-center)
+- [iSAP Solution](#isap-solution)
+- [ACTi Corporation](#acti-corporation)
+- [NARLabs - NCHC](#narlabs---nchc)
+- [TSMC - Fab 3](#tsmc---fab-3)
+- [NTU - Institute of Molecular and Cellular Biology](#ntu---institute-of-molecular-and-cellular-biology)
 
 ---
 
