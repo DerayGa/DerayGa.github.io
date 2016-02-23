@@ -80,6 +80,25 @@ http://deray.org
 
 ## 專案：
 
+### 台達研究院
+- **安全監控系統專案 - TwinBright(Mobile App)**
+- **歐洲客戶入口平台(Mobile App)**
+    + 負責：IoT 應用開發, Web client, Hybrid Modile App, Backend server, System architecture, DevOps
+    + 技術：ESLint, ReactJS, React Native, JavaScrip tES6, git, Node.js, MongoDB, MQTT, socket
+
+- **FAE 支援平台 Platform - Ironman(Web)**
+- **內部系統開發(Web)**
+    + 負責：Technical study group participant and leader, Frontend/Backend technology exploration, System architecture, Scrum/Kanban flow integration
+    + Skills:ESLint, ReactJS, AngularJS, JavaScrip tES6, git, Node.js, MongoDB, MQTT, HTML5, CSS3, RWD, Synchronize environment setup on Mac OS X, Chrome extension development
+
+---
+
+- **外部 & 內部論壇/活動協辦**
+    + 負責：tech forum assistance/video broadcast setup/multi-media material production, DevOps workshop assistance, Demo session circuit simulation
+    + 技術：IBM Sametime Connect, IBM Rational, Common Programming Model, Apple Keynote, iMovie, iPhoto, HTML5, Javascript, CSS3, Multithreaded simulation, git
+
+---
+
 ### 旭人科技
 - **NVR系統(Web)**
     + 負責：Web client、System Architecture、CGI Design、UI、UX
