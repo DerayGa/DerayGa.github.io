@@ -82,16 +82,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 ## Project:
 
-- [Delta Research Center](#delta-research-center)
-- [iSAP Solution](#isap-solution)
-- [ACTi Corporation](#acti-corporation)
-- [NARLabs - NCHC](#narlabs---nchc)
-- [TSMC - Fab 3](#tsmc---fab-3)
-- [NTU - Institute of Molecular and Cellular Biology](#ntu---institute-of-molecular-and-cellular-biology)
-
----
-
-#### Delta Research Center
+### Delta Research Center
 - **Security Surveillance Project - TwinBright(Mobile App)**
 - **European Customer Portal(Mobile App)**
     + Responsible: IoT application, Web client, Hybrid Modile App, Backend server, System architecture, DevOps
@@ -102,13 +93,13 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Responsible:Technical study group participant and leader, Frontend/Backend technology exploration, System architecture, Scrum/Kanban flow integration
     + Skills:ESLint, ReactJS, AngularJS, JavaScrip tES6, git, Node.js, MongoDB, MQTT, HTML5, CSS3, RWD, Synchronize environment setup on Mac OS X, Chrome extension development
 
-- **External&internal forum/event support**
+- **External & internal forum/event support**
     + Responsible: tech forum assistance/video broadcast setup/multi-media material production, DevOps workshop assistance, Demo session circuit simulation
     + Skills: IBM Sametime Connect, IBM Rational, Common Programming Model, Apple Keynote, iMovie, iPhoto, HTML5, Javascript, CSS3, Multithreaded simulation, git
 
 ---
 
-#### iSAP Solution
+### iSAP Solution
 - **NVR Client(Web)**
     + Responsible:Web client, System architecture, CGI design, UI, UX
     + Skills:JavaScript, jQuery, HTML5, CSS3, XML, JSON, AJAX, ActiveX, cross-browser Compatible, obfuscated, subversion
@@ -162,7 +153,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 ---
 
-#### ACTi Corporation
+### ACTi Corporation
 - **NVR Client(Web)**
     + Responsible:Web client, System architecture, CGI design, UI, UX
     + Skills:JavaScript, jQuery, HTML, CSS, XML, AJAX, ActiveX, Obfuscated, Visual SourceSafe
@@ -171,7 +162,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 ---
 
-#### NARLabs - NCHC
+### NARLabs - NCHC
 - **Man-hour System - base on ABC(Activity-Based Costing) methodology(Web)**
     + Responsible:Web client, back-end web server, database build/maintain
     + Skills:JBoss AS, Java, JSP, Oracle
@@ -179,7 +170,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 ---
 
-#### TSMC - Fab 3
+### TSMC - Fab 3
 - **EIP System - SaaS, provide personalized aggregated data(Web)**
     + Responsible:Web client, pre-render visual chart(at night, use idle computer running cluster calculation), Java desktop application.
     + Skills:PHP, XOOPS, Linux, Apache, MySQL,J ava Swing, Java Web Start
@@ -187,7 +178,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 ---
 
-#### NTU - Institute of Molecular and Cellular Biology
+### NTU - Institute of Molecular and Cellular Biology
 - **SARS gene feature and medication analysis comparison(Mac OS)**
     + Responsible:Big data DNA/RNA segment split, compare with online database, to find a similar human gene and compared medication resistance.
     + Skills:Mac Cocoa, Regular Expression, Socket, Multi-threading, SQLite
