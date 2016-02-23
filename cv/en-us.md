@@ -93,6 +93,8 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
     + Responsible:Technical study group participant and leader, Frontend/Backend technology exploration, System architecture, Scrum/Kanban flow integration
     + Skills:ESLint, ReactJS, AngularJS, JavaScrip tES6, git, Node.js, MongoDB, MQTT, HTML5, CSS3, RWD, Synchronize environment setup on Mac OS X, Chrome extension development
 
+---
+
 - **External & internal forum/event support**
     + Responsible: tech forum assistance/video broadcast setup/multi-media material production, DevOps workshop assistance, Demo session circuit simulation
     + Skills: IBM Sametime Connect, IBM Rational, Common Programming Model, Apple Keynote, iMovie, iPhoto, HTML5, Javascript, CSS3, Multithreaded simulation, git
