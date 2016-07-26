@@ -33,7 +33,7 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 
 ## Skills:
-- **Programing:** C#(.NET), Objective-C(iOS), JavaScript, jQuery, React, HTML5, CSS3, PHP, Java
+- **Programing:** C#(.NET), Objective-C(iOS), JavaScript, jQuery, React, React Native, Redux, HTML5, PHP, Java
 - **Database:** SQL(MySQL,SQL Server), noSQL(MongoDB)
 - **Server:** node.js, Apache, tomcat, JBoss AS
 - **Revision control:** Git, SNV, Visual SourceSafe
@@ -86,12 +86,12 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 - **Security Surveillance Project - TwinBright(Mobile App)**
 - **European Customer Portal(Mobile App)**
     + Responsible:IoT application, Web client, Hybrid Modile App, Backend server, System architecture, DevOps
-    + Skills:ESLint, ReactJS, React Native, JavaScrip tES6, git, Node.js, MongoDB, MQTT, socket
+    + Skills:ESLint, ReactJS, React Native, Redux, JavaScript ES6, git, Node.js, MongoDB, MQTT, socket
 
 - **FAE Support Platform - Ironman(Web)**
 - **Internal System Platform(Web)**
     + Responsible:Technical study group participant and leader, Frontend/Backend technology exploration, System architecture, Scrum/Kanban flow integration
-    + Skills:ESLint, ReactJS, AngularJS, JavaScrip tES6, git, Node.js, MongoDB, MQTT, HTML5, CSS3, RWD, Synchronize environment setup on Mac OS X, Chrome extension development
+    + Skills:ESLint, ReactJS, AngularJS, JavaScript ES6, git, Node.js, MongoDB, MQTT, HTML5, CSS3, RWD, Synchronize environment setup on Mac OS X, Chrome extension development
 
 ---
 
