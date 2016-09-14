@@ -18,7 +18,9 @@ http://deray.org
 ---
 
 ## Education:
-National Taiwan University of Science and Technology -  
+* National Chengchi University -  
+Computer Science - Master (currently enrolled)
+* National Taiwan University of Science and Technology -  
 Computer Science and Information Engineering - Bachelor
 
 ## About:
