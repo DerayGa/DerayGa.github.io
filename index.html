@@ -129,7 +129,7 @@
 		},
 		{
 			id: 'github',
-			height: 113,
+			height: 114,
 			name: 'GitHub',
 			link: 'github.com/derayGa'
 		},
@@ -141,13 +141,13 @@
 		},
 		{
 			id: 'linkedin',
-			height: 113,
+			height: 114,
 			name: 'LinkedIn',
 			link: 'tw.linkedin.com/in/derayga'
 		},
 		{
 			id: 'cv',
-			height: 113,
+			height: 114,
 			name: 'CV',
 			link: 'derayga.github.io/cv'
 		}
@@ -183,7 +183,7 @@
 			$('.grid').append($(gridItem).append($(a).append($(image)).append($(image.context))));
 		});
 
-		var gridItem = $(document.createElement('div')).addClass('grid-item').height(220).width(width);
+		var gridItem = $(document.createElement('div')).addClass('grid-item').height(235).width(width);
 		$.each(externals, function(index, item){
 			var link = item.link;
 			var protocal = 'http://';
@@ -199,7 +199,7 @@
 				name: '#' + item.id,
 				title: item.name,
 				height: item.height + 'px',
-				width: '114px'
+				width: '113px'
 			}).hide()[0];
 
 			image.context = $(document.createElement('div')).attr({
