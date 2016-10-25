@@ -7,12 +7,12 @@
   <meta property="og:image" content="http://derayga.github.io/image/tibet.jpg">
   <meta property="og:title" content="Deray 嘎嘎嘎">
   <meta property="og:description" content="單車遊記、自助旅行和閒聊夢想">
-	<link type='text/css' rel='stylesheet' href='css/jquery.capty.css'/>
-	<link type='text/css' rel='stylesheet' href='css/normalize.css'/>
+	<link type='text/css' rel='stylesheet' href='./css/jquery.capty.css'/>
+	<link type='text/css' rel='stylesheet' href='./css/normalize.css'/>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-	<script src='js/jquery.min.js'></script>
-	<script src='js/masonry.pkgd.min.js'></script>
-	<script src='js/jquery.capty.min.js'></script>
+	<script src='./js/jquery.min.js'></script>
+	<script src='./js/masonry.pkgd.min.js'></script>
+	<script src='./js/jquery.capty.min.js'></script>
 	<style>
 		body{
 			padding: 0px;
@@ -43,78 +43,59 @@
 	</script>
 </head>
 <body>
-	<div class='grid'>
-	</div>
+	<div class='grid' />
 </body>
 
 <script type='text/javascript'>
-	var items = [
+	const items = [
 		{
 			id: 'blog',
-			height: 250,
 			name: '日誌、部落格',
 			link: 'blog.deray.org',
-			//gitLink: 'blog.deray.org'
 		},
 		{
 			id: 'nippon',
-			height: 250,
 			name: '單車-環日本 (2015年)',
 			link: 'nippon.deray.org',
-			//gitLink: 'derayga.github.io/nippon'
 		},
 		{
 			id: 'hokkaido',
-			height: 250,
 			name: '機車-環北海道 (2014年)',
 			link: 'blog.deray.org/hokkaido',
-			//gitLink: 'derayga.github.io/hokkaido'
 		},
 		{
 			id: 'tibet',
-			height: 250,
 			name: '單車-西藏：青藏線 (2013年)',
 			link: 'blog.deray.org/tibet',
-			//gitLink: 'derayga.github.io/tibet'
 		},
 		{
 			id: 'franceWithMisasa',
-			height: 250,
 			name: '背包-火車環法國 (2012年)',
 			link: 'blog.deray.org/franceWithMisasa',
-			//gitLink: 'derayga.github.io/franceWithMisasa'
 		},
 		{
 			id: 'btp',
-			height: 250,
 			name: '單車-北京到巴黎 (2007年)',
 			link: 'btp.deray.org',
-			//gitLink: 'derayga.github.io/btp'
 		},
 		{
 			id: 'kyoto',
-			height: 250,
 			name: '背包-京都、大阪 (2006年)',
 			link: 'blog.deray.org/kyoto',
-			//gitLink: 'derayga.github.io/kyoto'
 		},
 		{
 			id: 'france',
-			height: 250,
 			name: '單車-環法國 (2005年)',
 			link: 'france.deray.org',
-			//gitLink: 'derayga.github.io/france'
 		},
 		{
 			id: 'bicycle',
-			height: 250,
 			name: '單車-環台 (2003年)',
 			link: 'bicycle.deray.org',
-			//gitLink: 'derayga.github.io/bicycle'
 		}
 	];
 
-	var externals = [
+	const externals = [
 		{
 			id: 'youtube',
 			height: 81,
@@ -153,67 +134,72 @@
 		}
 	]
 
-	$( document ).ready(function() {
+	$(document).ready(() => {
 		if (window.self !== window.top) {
 			window.top.location = window.location.href;
 			return;
 		}
+		let protocol = window.location.protocol
+		if (['http:', 'https:'].indexOf(protocol) == -1) {
+			protocol = 'http:';
+		}
 
-		var width = 341;
-		var isGit = (window.location.href.toLowerCase().indexOf('derayga.github.io') > -1);
+		const width = 341;
+		const height = 250;
+		const extWidth = 113;
 
-		if(isGit)
+		if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
 			window.document.title += ' - GitHub 版本';
+		}
 
-		$.each(items, function(index, item){
-			var link = (isGit && item.gitLink ) ? item.gitLink : item.link;
-
-			var a = $(document.createElement('a')).attr({
-				href: 'http://' + link
+		items.forEach((item) => {
+			const a = $(document.createElement('a')).attr({
+				href: `${protocol}//${item.link}`
 			});
-			var gridItem = $(document.createElement('div')).addClass('grid-item').height(item.height).width(width);
 
-			var image = $(new Image()).attr({
-				src: 'image/' + item.id + '.jpg',
-				name: '#' + item.id,
+			const gridItem = $(document.createElement('div'))
+				.addClass('grid-item').height(height).width(width);
+
+			const image = $(new Image()).attr({
+				src: `image/${item.id}.jpg`,
+				name: `#${item.id}`,
 				title: item.name,
-				height: item.height + 'px',
-				width: width + 'px'
+				height: `${item.height}px`,
+				width: `${width}px`,
 			}).hide()[0];
 
 			image.context = $(document.createElement('div')).attr({
 				id: item.id
-			}).html(item.name + '<br/><a href="http://' + link + '">' + link + '</a>').hide();
+			}).html(`${item.name}<br/><a href="${a.attr('href')}">${item.link}</a>`).hide();
 
 			$('.grid').append($(gridItem).append($(a).append($(image)).append($(image.context))));
 		});
 
-		var gridItem = $(document.createElement('div')).addClass('grid-item').height(235).width(width);
-		$.each(externals, function(index, item){
-			var link = item.link;
-			var protocal = 'http://';
-			if(item.id == 'gmail')
-				protocal = 'mailto:';
+		const extItem = $(document.createElement('div'))
+			.addClass('grid-item').height(height).width(width);
+		externals.forEach((item) => {
+			const protocal = (item.id == 'gmail') ? 'mailto:' : 'https://';
 
-			var a = $(document.createElement('a')).attr({
-				href: protocal + link
+			const a = $(document.createElement('a')).attr({
+				href: protocal + item.link
 			});
 
-			var image = $(new Image()).attr({
-				src: 'image/' + item.id + '.jpg',
-				name: '#' + item.id,
+			const image = $(new Image()).attr({
+				src: `image/${item.id}.jpg`,
+				name: `#${item.id}`,
 				title: item.name,
-				height: item.height + 'px',
-				width: '113px'
+				height: `${item.height}px`,
+				width: `${extWidth}px`,
 			}).hide()[0];
 
 			image.context = $(document.createElement('div')).attr({
 				id: item.id
 			}).html(item.name).hide();
 
-			$(gridItem).append($(a).append($(image)).append($(image.context)))
+			$(extItem).append($(a).append($(image)).append($(image.context)))
 		});
-		$('.grid').append($(gridItem));
+
+		$('.grid').append($(extItem));
 
 		$('.grid').masonry({
 			itemSelector: '.grid-item',
@@ -221,15 +207,15 @@
 			gutter: 0
 		});
 
-		$.each($('.grid img:hidden'), function(index, image){
-			$(image).delay(index*70).fadeIn({
+		$('.grid img:hidden').toArray().forEach((image, index) => {
+			$(image).delay(index * 165).fadeIn({
 				duration:330,
-				complete: function(){
-					if(image.context){
+				complete: () => {
+					if (image.context) {
 						$(image).capty({
-				  			animation: ($(image).width() <= 115) ? undefined : 'fixed',
-							height: ($(image).width() <= 115) ? 35 : 60,
-							opacity:  0.75
+				  		animation: ($(image).width() <= extWidth) ? undefined : 'fixed',
+							height: ($(image).width() <= extWidth) ? 35 : 60,
+							opacity: 0.75,
 						});
 						$(image.context).fadeIn(500);
 					}
