@@ -139,10 +139,6 @@
 			window.top.location = window.location.href;
 			return;
 		}
-		let protocol = window.location.protocol
-		if (['http:', 'https:'].indexOf(protocol) == -1) {
-			protocol = 'http:';
-		}
 
 		const width = 341;
 		const height = 250;
@@ -154,7 +150,7 @@
 
 		items.forEach((item) => {
 			const a = $(document.createElement('a')).attr({
-				href: `${protocol}//${item.link}`
+				href: `//${item.link}`
 			});
 
 			const gridItem = $(document.createElement('div'))
@@ -178,7 +174,7 @@
 		const extItem = $(document.createElement('div'))
 			.addClass('grid-item').height(height).width(width);
 		externals.forEach((item) => {
-			const protocal = (item.id == 'gmail') ? 'mailto:' : 'https://';
+			const protocal = (item.id == 'gmail') ? 'mailto:' : '//';
 
 			const a = $(document.createElement('a')).attr({
 				href: protocal + item.link
