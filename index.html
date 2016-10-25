@@ -154,6 +154,11 @@
 	]
 
 	$( document ).ready(function() {
+		if (window.self !== window.top) {
+			window.top.location = window.location.href;
+			return;
+		}
+
 		var width = 341;
 		var isGit = (window.location.href.toLowerCase().indexOf('derayga.github.io') > -1);
 
