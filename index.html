@@ -47,7 +47,7 @@
 </body>
 
 <script type='text/javascript'>
-	const items = [
+	var items = [
 		{
 			id: 'blog',
 			name: '日誌、部落格',
@@ -95,7 +95,7 @@
 		}
 	];
 
-	const externals = [
+	var externals = [
 		{
 			id: 'youtube',
 			height: 81,
@@ -134,29 +134,29 @@
 		}
 	]
 
-	$(document).ready(() => {
+	$(document).ready(function() {
 		if (window.self !== window.top) {
 			window.top.location = window.location.href;
 			return;
 		}
 
-		const width = 341;
-		const height = 250;
-		const extWidth = 113;
+		var width = 341;
+		var height = 250;
+		var extWidth = 113;
 
 		if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
 			window.document.title += ' - GitHub 版本';
 		}
 
-		items.forEach((item) => {
-			const a = $(document.createElement('a')).attr({
+		$.each(items, function(index, item) {
+			var a = $(document.createElement('a')).attr({
 				href: `//${item.link}`
 			});
 
-			const gridItem = $(document.createElement('div'))
+			var gridItem = $(document.createElement('div'))
 				.addClass('grid-item').height(height).width(width);
 
-			const image = $(new Image()).attr({
+			var image = $(document.createElement('img')).attr({
 				src: `image/${item.id}.jpg`,
 				name: `#${item.id}`,
 				title: item.name,
@@ -171,16 +171,16 @@
 			$('.grid').append($(gridItem).append($(a).append($(image)).append($(image.context))));
 		});
 
-		const extItem = $(document.createElement('div'))
+		var extItem = $(document.createElement('div'))
 			.addClass('grid-item').height(height).width(width);
-		externals.forEach((item) => {
-			const protocal = (item.id == 'gmail') ? 'mailto:' : '//';
+		$.each(externals, function(index, item) {
+			var protocal = (item.id == 'gmail') ? 'mailto:' : '//';
 
-			const a = $(document.createElement('a')).attr({
+			var a = $(document.createElement('a')).attr({
 				href: protocal + item.link
 			});
 
-			const image = $(new Image()).attr({
+			var image = $(new Image()).attr({
 				src: `image/${item.id}.jpg`,
 				name: `#${item.id}`,
 				title: item.name,
@@ -203,10 +203,10 @@
 			gutter: 0
 		});
 
-		$('.grid img:hidden').toArray().forEach((image, index) => {
+		$.each($('.grid img'), function(index, image) {
 			$(image).delay(index * 165).fadeIn({
 				duration:330,
-				complete: () => {
+				complete: function() {
 					if (image.context) {
 						$(image).capty({
 				  		animation: ($(image).width() <= extWidth) ? undefined : 'fixed',
