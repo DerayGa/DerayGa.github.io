@@ -150,23 +150,23 @@
 
 		$.each(items, function(index, item) {
 			var a = $(document.createElement('a')).attr({
-				href: `//${item.link}`
+				href: '//' + item.link,
 			});
 
 			var gridItem = $(document.createElement('div'))
 				.addClass('grid-item').height(height).width(width);
 
 			var image = $(document.createElement('img')).attr({
-				src: `image/${item.id}.jpg`,
-				name: `#${item.id}`,
+				src: 'image/' + item.id + '.jpg',
+				name: '#' + item.id,
 				title: item.name,
-				height: `${item.height}px`,
-				width: `${width}px`,
+				height: item.height + 'px',
+				width: width + 'px',
 			}).hide()[0];
 
 			image.context = $(document.createElement('div')).attr({
 				id: item.id
-			}).html(`${item.name}<br/><a href="${a.attr('href')}">${item.link}</a>`).hide();
+			}).html(item.name + '<br/><a href="' + a.attr('href') + '">' + item.link + '</a>').hide();
 
 			$('.grid').append($(gridItem).append($(a).append($(image)).append($(image.context))));
 		});
@@ -181,11 +181,11 @@
 			});
 
 			var image = $(new Image()).attr({
-				src: `image/${item.id}.jpg`,
-				name: `#${item.id}`,
+				src: 'image/' + item.id + '.jpg',
+				name: '#' + item.id,
 				title: item.name,
-				height: `${item.height}px`,
-				width: `${extWidth}px`,
+				height: item.height + 'px',
+				width: extWidth + 'px',
 			}).hide()[0];
 
 			image.context = $(document.createElement('div')).attr({
