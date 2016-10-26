@@ -139,7 +139,7 @@
 			window.top.location = window.location.href;
 			return;
 		}
-
+		var imgs = [];
 		var width = 341;
 		var height = 250;
 		var extWidth = 113;
@@ -164,11 +164,14 @@
 				width: width + 'px',
 			}).hide()[0];
 
-			image.context = $(document.createElement('div')).attr({
+			var context = $(document.createElement('div')).attr({
 				id: item.id
 			}).html(item.name + '<br/><a href="' + a.attr('href') + '">' + item.link + '</a>').hide();
 
-			$('.grid').append($(gridItem).append($(a).append($(image)).append($(image.context))));
+			$(a).append($(image)).append($(context))
+			$('.grid').append($(gridItem).append($(a)));
+
+			imgs.push(image);
 		});
 
 		var extItem = $(document.createElement('div'))
@@ -188,11 +191,13 @@
 				width: extWidth + 'px',
 			}).hide()[0];
 
-			image.context = $(document.createElement('div')).attr({
+			var context = $(document.createElement('div')).attr({
 				id: item.id
 			}).html(item.name).hide();
 
-			$(extItem).append($(a).append($(image)).append($(image.context)))
+			$(a).append($(image)).append($(context))
+			$(extItem).append($(a));
+			imgs.push(image);
 		});
 
 		$('.grid').append($(extItem));
@@ -203,17 +208,18 @@
 			gutter: 0
 		});
 
-		$.each($('.grid img'), function(index, image) {
+		$.each(imgs, function(index, image) {
 			$(image).delay(index * 165).fadeIn({
 				duration:330,
 				complete: function() {
-					if (image.context) {
+					var context = $(image).siblings();
+					if (context) {
 						$(image).capty({
 				  		animation: ($(image).width() <= extWidth) ? undefined : 'fixed',
 							height: ($(image).width() <= extWidth) ? 35 : 60,
 							opacity: 0.75,
 						});
-						$(image.context).fadeIn(500);
+						$(context).fadeIn(500);
 					}
 				}
 			});
