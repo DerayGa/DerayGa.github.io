@@ -8,10 +8,10 @@
   <meta property="og:title" content="Deray 嘎嘎嘎">
   <meta property="og:description" content="單車遊記、自助旅行和閒聊夢想">
 	<link type='text/css' rel='stylesheet' href='./css/jquery.capty.css'/>
-	<link type='text/css' rel='stylesheet' href='./css/normalize.css'/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-	<script src='./js/jquery.min.js'></script>
-	<script src='./js/masonry.pkgd.min.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
 	<script src='./js/jquery.capty.min.js'></script>
 	<style>
 		body{
@@ -160,9 +160,9 @@
 				src: 'image/' + item.id + '.jpg',
 				name: '#' + item.id,
 				title: item.name,
-				height: item.height + 'px',
+				height: height + 'px',
 				width: width + 'px',
-			}).hide()[0];
+			}).hide();
 
 			var context = $(document.createElement('div')).attr({
 				id: item.id
@@ -189,7 +189,7 @@
 				title: item.name,
 				height: item.height + 'px',
 				width: extWidth + 'px',
-			}).hide()[0];
+			}).hide();
 
 			var context = $(document.createElement('div')).attr({
 				id: item.id
@@ -214,9 +214,10 @@
 				complete: function() {
 					var context = $(image).siblings();
 					if (context) {
+						var imageWidth = Number($(image).attr('width').replace('px', ''));
 						$(image).capty({
-				  		animation: ($(image).width() <= extWidth) ? undefined : 'fixed',
-							height: ($(image).width() <= extWidth) ? 35 : 60,
+				  		animation: (imageWidth <= extWidth) ? undefined : 'fixed',
+							height: (imageWidth <= extWidth) ? 35 : 60,
 							opacity: 0.75,
 						});
 						$(context).fadeIn(500);
