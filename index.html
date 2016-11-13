@@ -17,6 +17,8 @@
 		body{
 			padding: 0px;
 			margin: 0px;
+      overflow-y: auto;
+      overflow-x: hidden;
 		}
 		.capty-wrapper{
 			display: inline-block;
@@ -34,13 +36,13 @@
 			display: inline-block;
 		}
 	</style>
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-	  (adsbygoogle = window.adsbygoogle || []).push({
-	    google_ad_client: "ca-pub-1111626223306134",
-	    enable_page_level_ads: true
-	  });
-	</script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-1111626223306134",
+      enable_page_level_ads: true
+    });
+  </script>
 </head>
 <body>
 	<div class='grid'></div>
@@ -140,9 +142,25 @@
 			return;
 		}
 		var imgs = [];
-		var width = 341;
-		var height = 250;
-		var extWidth = 113;
+		var baseHeight = 250;
+    var baseWidth = 341;
+    var baseExtWidth = 113;
+    var windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var rate = Math.round(windowWidth / baseWidth);
+    var width = Math.floor(windowWidth / rate);
+    var extWidth = Math.floor(width / 3);
+    var height = Math.floor(baseHeight * (width / baseWidth));
+    handleResize();
+    var flag = null;
+    $(window).resize(function() {
+      $('.grid').css('margin-left', 0);
+      clearTimeout(flag)
+      flag = setTimeout(handleResize, 800)
+    });
+    function handleResize() {
+      windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      $('.grid').css('margin-left', (windowWidth % width) / 2);
+    }
 
 		if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
 			window.document.title += ' - GitHub 版本';
@@ -183,11 +201,11 @@
 				href: protocal + item.link
 			});
 
-			var image = $(new Image()).attr({
+			var image = $(document.createElement('img')).attr({
 				src: 'image/' + item.id + '.jpg',
 				name: '#' + item.id,
 				title: item.name,
-				height: item.height + 'px',
+				height: Math.floor(item.height * (extWidth / baseExtWidth)) + 'px',
 				width: extWidth + 'px',
 			}).hide();
 
@@ -228,14 +246,15 @@
 	});
 </script>
 <script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-1041499-1', 'auto');
-	ga('send', 'pageview');
+  ga('create', 'UA-1041499-1', 'auto');
+  ga('send', 'pageview');
 </script>
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- 閱讀更多 -->
 <ins class="adsbygoogle"
