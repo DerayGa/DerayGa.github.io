@@ -29,15 +29,15 @@ http://deray.org
 ---
 
 ## 薪資：
-- **最高:** 85K/月, 1.5M/年+分紅
+- **最高:**120K/月, 1.5M/年+分紅
 
 ## 專長：
-- **Programing:** C#(.NET)、Objective-C(iOS)、JavaScript、jQuery、React、HTML5、CSS3、PHP、Java
-- **Database:** SQL(MySQL、SQL Server)、noSQL(MongoDB)
-- **Server:** node.js、Apache、tomcat、JBoss AS
-- **Revision control:** Git、SNV、Visual SourceSafe
-- **Other:** RESTful API、JSON、XML、 Responsive Web Design、Material UI
-- **IDE:** XCode、AppCode、Visual Studio、Sublime Text
+- **Programing:** C#(.NET), Objective-C(iOS), JavaScript ES6+, React, React Native, Redux, Angular 4, Vue.js, HTML5, PHP7, Java, jQuery
+- **Database:** SQL(MySQL,SQL Server), noSQL(MongoDB)
+- **Server:** node.js, Apache, tomcat, JBoss, AS
+- **Revision control:** Git, SNV, Visual SourceSafe
+- **Other:** RESTful API, JSON, XML, Responsive Web Design, Material UI
+- **IDE:** XCode, AppCode, Visual Studio, Sublime Text, JetBrains IDE
 
 ---
 

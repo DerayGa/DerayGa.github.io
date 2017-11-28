@@ -31,16 +31,16 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 ---
 
 ## Salary:
-- **Highest:** 85K/Month, 1.5M/Year+bonus
+- **Highest:** 120K/Month, 1.5M/Year+bonus
 
 
 ## Skills:
-- **Programing:** C#(.NET), Objective-C(iOS), JavaScript, jQuery, React, React Native, Redux, HTML5, PHP, Java
+- **Programing:** C#(.NET), Objective-C(iOS), JavaScript ES6+, React, React Native, Redux, Angular 4, Vue.js, HTML5, PHP7, Java, jQuery
 - **Database:** SQL(MySQL,SQL Server), noSQL(MongoDB)
-- **Server:** node.js, Apache, tomcat, JBoss AS
+- **Server:** node.js, Apache, tomcat, JBoss, AS
 - **Revision control:** Git, SNV, Visual SourceSafe
 - **Other:** RESTful API, JSON, XML, Responsive Web Design, Material UI
-- **IDE:** XCode, AppCode, Visual Studio, Sublime Text
+- **IDE:** XCode, AppCode, Visual Studio, Sublime Text, JetBrains IDE
 
 ---
 
