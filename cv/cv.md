@@ -2,7 +2,7 @@
 
 ![Deray](https://derayga.github.io/image/me.jpg)
 
-##### [中文版](http://derayga.github.io/cv/?l=c) __________ [GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv/en-us.md)
+[GitHub Ver.](https://github.com/DerayGa/DerayGa.github.io/blob/master/cv/cv.md)
 ---
 
 ## Bio
@@ -25,26 +25,25 @@ Computer Science and Information Engineering - Bachelor
 
 ## About:
 Familiar with .NET, iOS, Web front-end product development.
-Proficient in Angular, React, Node.js, MongoDB, git, hybrid mobile app and DevOps integration.
+Proficient in Angular, React, React Native, PHP, Node.js, MongoDB, git, hybrid mobile app and DevOps integration.
 Enthusiasm programer, clean coder. I love coding, be a programer is not just my job, but my life. Like to study new technologies about mobile and front-end. Software development in rigorous specification such as code review, coding style and refactoring, Have ability to analysis project, design system architecture and task assignment within agile development. Understanding project management also have fully software engineer skill. Deliver high quality product in defined schedule.
 
 ---
 
-## Salary:
-- **Highest:** 120K/Month, 1.5M/Year+bonus
-
-
 ## Skills:
-- **Programing:** C#(.NET), Objective-C(iOS), JavaScript ES6+, React, React Native, Redux, Angular 4, Vue.js, HTML5, PHP7, Java, jQuery
-- **Database:** SQL(MySQL,SQL Server), noSQL(MongoDB)
-- **Server:** node.js, Apache, tomcat, JBoss, AS
+- **Programing:** C#(.NET), Objective-C(iOS), JavaScript ES6, React, React Native, Redux, Angular 4, Vue.js, HTML5, PHP7, Java, jQuery
+- **Database:** SQL(MySQL,SQL Server, MariaDB), noSQL(MongoDB)
+- **Server:** Node.js, Apache, tomcat, JBoss, AS
 - **Revision control:** Git, SNV, Visual SourceSafe
 - **Other:** RESTful API, JSON, XML, Responsive Web Design, Material UI
-- **IDE:** XCode, AppCode, Visual Studio, Sublime Text, JetBrains IDE
+- **IDE:** XCode, AppCode, Visual Studio, Sublime Text, JetBrains IDEs
 
 ---
 
 ## Journey:
+* [2017: **Henro** - 1,326 KM / 12 Days](http://deray.org/henro/)  
+  Pilgrimage of 88 temples
+
 * [2015: **Japan** - 6,381 KM / 52 Days](http://nippon.deray.org/)  
   Kyushu-Honshu-Hokkaido-Honshu-Shikoku-Kyushu
 
@@ -58,31 +57,40 @@ Enthusiasm programer, clean coder. I love coding, be a programer is not just my 
 
 * [2003: **Taiwan** - 1,100 KM / 6 Days](http://bicycle.deray.org/)
 
-(Traveling with bicycle, alone)
+(Traveling with bicycle, camping and only by myself)
 
 ---
+
+## Experience:
+| Corporation          | Time Period     |
+|:--------------------:|:---------------:|
+| Meteocontrol         | 2017/8 ~        |
+| Delta Research Center| 2015/7 ~ 2017/7 |
+| iSAP Solution        | 2011/6 ~ 2015/3 |
+| ACTi Corporation     | 2008/7 ~ 2011/5 |
+| NARLabs - NCHC       | 2007/6 ~ 2008/6 |
+| TSMC                 | 2006/4 ~ 2007/3 |
+
+ (Title: Senior* Software Engineer)
 
 ## Languages:
 | Language  |  Level  |
 |:---------:|:-------:|
-|  Chinese  |  Native |
-|  English  |  Well   |
-|  Japanese |  Little |
-
-## Experience:
-|     Corporation      |   Time Period   |
-|:--------------------:|:---------------:|
-|Delta Research Center |    2015/7 ~     |
-|  iSAP Solution       | 2011/6 ~ 2015/3 |
-|  ACTi Corporation    | 2008/7 ~ 2011/5 |
-|  NARLabs - NCHC      | 2007/6 ~ 2008/6 |
-|  TSMC - Fab 3        | 2006/4 ~ 2007/3 |
-
- (Title: Senior* Software Engineer)
+| Chinese   |  Native |
+| English   |  Well   |
+| Japanese  |  Little |
 
 ---
 
 ## Project:
+
+### Meteocontrol
+- **Development solar system/sensor/inverter driver(TypeScript)**
+- **Internal System Development(Angular 4)**
+- **Parse, Convert, Calculator value receive from devices(PHP)**
+- **Hosting RESTful API Service(PHP)**
+
+---
 
 ### Delta Research Center
 - **Security Surveillance Project - TwinBright(Mobile App)**

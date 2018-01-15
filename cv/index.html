@@ -30,11 +30,8 @@
     <script src="../js/remark-latest.min.js"></script>
     <script>
       window.onload = function(){
-        var cv = (getUrlParameter("l") == "c")
-          ? "zh-tw.md" : "en-us.md";
-
         remark.create({
-          sourceUrl: './' + cv,
+          sourceUrl: './cv.md',
         });
       };
 
