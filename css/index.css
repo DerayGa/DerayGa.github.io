@@ -33,30 +33,42 @@ body {
 }
 
 .grid-item div.caption {
-    height: 45px;
+    height: 25px;
     width: 100%;
-    background-color: #000;
-    color: #FFF;
+    color: white;
     font: bold 11px verdana;
     text-shadow: 1px 1px 0 #222;
-    opacity: 0.75;
+    opacity: 0.6;
     position: absolute;
     left: 0;
     bottom: 0;
-    font-size: 16px;
-    font-family: '微軟正黑體', arial;
-    text-align: center;
-    padding-top: 7px;
     border-radius: 0 0 8px 8px;
+    background-color: #ffca28;
 }
 
-.grid-item div.caption a {
-    color: #318DAD;
-    font: bold 11px verdana;
+.grid-item div.caption.bike {
+    background-color: #2196f3;
+}
+.grid-item div.caption.backpack {
+    background-color: #8bc34a;
+}
+
+.grid-item span.label {
+    width: 100%;
+    font-size: 16px;
+    font-family: '微軟正黑體', arial;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    text-align: center;
+    color: white;
     text-decoration: none;
     text-shadow: none;
 }
 
 .grid-item:hover div.caption{
-    font-size: 18px;
+    opacity: 1;
+}
+.grid-item:hover span.label{
+    font-weight: bold;
 }
