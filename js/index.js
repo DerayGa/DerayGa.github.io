@@ -51,7 +51,7 @@ var items = [
   }
 ];
 
-var externals = [/*
+var externals = [
     {
       id: 'youtube',
       height: 81,
@@ -87,7 +87,7 @@ var externals = [/*
       height: 114,
       name: 'CV',
       link: 'derayga.github.io/cv'
-    }*/
+    }
 ];
 
 var baseHeight = 250;
@@ -95,7 +95,6 @@ var baseWidth = 341;
 var baseExtWidth = 113;
 var gutter = 5;
 var windowWidth;
-var images;
 var rate;
 var width;
 var extWidth;
@@ -116,7 +115,6 @@ function calculatorSize() {
 }
 
 function createGridItems() {
-  images = [];
   $.each(items, function(index, item) {
     var a = $(document.createElement('a')).attr({
       href: '//' + item.link,
@@ -138,14 +136,20 @@ function createGridItems() {
     }).html(item.name + '<br/><a href="' + a.attr('href') + '">' + item.link + '</a>');
 
     $(a).append($(image)).append($(context));
-    $('.grid').append($(gridItem).append($(a)));
+    $(gridItem).append($(a));
+    $('.grid').append($(gridItem));
 
-    images.push(image);
+    $(image).capty({
+      animation: 'fixed',
+      height: 60,
+      opacity: 0.75,
+    });
   });
 }
 
 function createExtraItem() {
-  var extItem = $(document.createElement('div'))
+  var images = [];
+  var gridItem = $(document.createElement('div'))
     .addClass('grid-item').height(height).width(width);
 
   $.each(externals, function(index, item) {
@@ -167,12 +171,24 @@ function createExtraItem() {
       id: item.id
     }).html(item.name);
 
-    $(a).append($(image)).append($(context))
-    $(extItem).append($(a));
+    $(a).append($(image)).append($(context));
+    $(gridItem).append($(a));
     images.push(image);
   });
 
-  $('.grid').append($(extItem));
+  $('.grid').append($(gridItem));
+
+  $.each(images, function(index, image) {
+    $(image).capty({
+      animation: undefined,
+      height: 35,
+      opacity: 0.75,
+    });
+  });
+}
+
+function initPage() {
+
 }
 
 $(document).ready(function() {
@@ -181,8 +197,6 @@ $(document).ready(function() {
     return;
   }
   calculatorSize();
-
-  handleResize();
 
   $(window).resize(function() {
     clearTimeout(flag);
@@ -193,6 +207,7 @@ $(document).ready(function() {
     window.document.title += ' - GitHub 版本';
   }
 
+  initPage();
   createGridItems();
   createExtraItem();
 
@@ -200,17 +215,5 @@ $(document).ready(function() {
     itemSelector: '.grid-item',
     columnWidth: width,
     gutter: gutter
-  });
-
-  $.each(images, function(index, image) {
-    var context = $(image).siblings();
-    if (context) {
-      var imageWidth = Number($(image).attr('width').replace('px', ''));
-      $(image).capty({
-        animation: (imageWidth <= extWidth) ? undefined : 'fixed',
-        height: (imageWidth <= extWidth) ? 35 : 60,
-        opacity: 0.75,
-      });
-    }
   });
 });
