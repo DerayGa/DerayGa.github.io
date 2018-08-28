@@ -64,14 +64,14 @@ header p {
     left: 0;
     bottom: 0;
     border-radius: 0 0 8px 8px;
-    background-color: #ffca28;
+    background-color: #607d8b;
 }
 
 .grid-item div.caption.bike {
     background-color: #2196f3;
 }
 .grid-item div.caption.backpack {
-    background-color: #8bc34a;
+    background-color: #4caf50;
 }
 
 .grid-item span.label {
@@ -87,19 +87,25 @@ header p {
     text-shadow: none;
 }
 
-.grid-item span.year {
-    font-size: 11px;
+.grid-item span.year, .grid-item span.category {
     font-family: '微軟正黑體', arial;
     position: absolute;
-    right: 5px;
-    bottom: 6px;
     color: white;
+    font-size: 13px;
+    bottom: 4px;
     text-decoration: none;
     text-shadow: none;
+}
+.grid-item span.year {
+    right: 5px;
+}
+.grid-item span.category {
+    left: 5px;
 }
 
 .grid-item:hover div.caption{
     opacity: 1;
+    background-color: #333;
 }
 .grid-item:hover span.label{
     font-weight: bold;
