@@ -53,32 +53,36 @@ var items = [
 
 var baseHeight = 250;
 var baseWidth = 341;
-var captyHeight = 60;
 var gutter = 5;
-var windowWidth;
-var rate;
+var browserWidth;
+var gridItemPerRow;
 var gridItemWidth;
 var gridItemHeight;
 var flag = null;
 
 function handleResize() {
-  $('.grid').remove();
+  calculatorSize();
 
-  var grid = $(document.createElement('div')).addClass('grid')
-  $('body').append($(grid));
-  createGridItems();
+  $('.grid-item').animate({
+    width: gridItemWidth,
+    height: gridItemHeight
+  }, 100, function() {
+    $('.grid').masonry({
+      columnWidth: gridItemWidth,
+      gutter: gridItemPerRow > 1 ? gutter : 0
+    });
+  })
 }
 
 function calculatorSize() {
-  windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-  rate = Math.round(windowWidth / baseWidth);
-  gridItemWidth = Math.floor(windowWidth / rate) - gutter;
+  var scrollwidth = window.innerWidth - document.documentElement.clientWidth;
+  browserWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) - scrollwidth;
+  gridItemPerRow = Math.round(browserWidth / baseWidth);
+  gridItemWidth = Math.floor(browserWidth / gridItemPerRow) - (gridItemPerRow > 1 ? gutter : 0);
   gridItemHeight = Math.floor(baseHeight * (gridItemWidth / baseWidth));
 }
 
 function createGridItems() {
-  calculatorSize();
-
   $.each(items, function(index, item) {
     var a = $(document.createElement('a')).attr({
       href: '//' + item.link,
@@ -90,30 +94,22 @@ function createGridItems() {
     var image = $(document.createElement('img')).attr({
       src: 'image/' + item.id + '.jpg',
       name: '#' + item.id,
-      title: item.name,
-      height: gridItemHeight + 'px',
-      width: gridItemWidth + 'px',
+      title: item.name
     });
 
-    var context = $(document.createElement('div')).attr({
-      id: item.id
-    }).html(item.name + '<br/><a href="' + a.attr('href') + '">' + item.link + '</a>');
+    var caption = $(document.createElement('div'))
+      .addClass('caption')
+      .html(item.name + '<br/><a href="' + a.attr('href') + '">' + item.link + '</a>');
 
-    $(a).append($(image)).append($(context));
+    $(a).append($(image)).append($(caption));
     $(gridItem).append($(a));
     $('.grid').append($(gridItem));
-
-    $(image).capty({
-      animation: 'fixed',
-      height: captyHeight,
-      opacity: 0.75,
-    });
   });
 
   $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: gridItemWidth,
-    gutter: gutter
+    gutter: gridItemPerRow > 1 ? gutter : 0
   });
 }
 
@@ -132,5 +128,6 @@ $(document).ready(function() {
     window.document.title += ' - GitHub 版本';
   }
 
+  calculatorSize();
   createGridItems();
 });

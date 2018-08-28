@@ -16,17 +16,6 @@ body {
     background: skyblue;
 }
 
-.capty-wrapper {
-    display: inline-block;
-    border-radius: 8px;
-}
-
-.capty-caption div {
-    font-size: 16px;
-    font-family: '微軟正黑體', arial;
-    text-align: center;
-}
-
 .grid:after {
     content: '';
     display: block;
@@ -37,7 +26,37 @@ body {
     float: left;
     margin-bottom: 5px;
 }
+.grid-item a img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 
-.grid-item:hover .capty-caption div {
+.grid-item div.caption {
+    height: 45px;
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    font: bold 11px verdana;
+    text-shadow: 1px 1px 0 #222;
+    opacity: 0.75;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 16px;
+    font-family: '微軟正黑體', arial;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 0 0 8px 8px;
+}
+
+.grid-item div.caption a {
+    color: #318DAD;
+    font: bold 11px verdana;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.grid-item:hover div.caption{
     font-size: 18px;
 }
