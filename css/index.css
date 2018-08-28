@@ -4,9 +4,30 @@ body {
     margin: 0;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #eeeeee;
 }
 
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: '微軟正黑體', 'Open Sans', sans-serif;
+}
+header h1{
+    padding: 3px 0;
+    margin: 0;
+    color: #0a77d5;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+header p {
+    padding: 3px 0;
+    margin: 0;
+    color: #3d353d;
+    font-style: italic;
+    font-size: 16px;
+}
 ::-webkit-scrollbar {
     width: 0;
     background: transparent;
