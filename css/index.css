@@ -1,35 +1,41 @@
 
 body {
-	padding: 0;
-	margin: 0;
-	overflow-y: auto;
-	overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #eeeeee;
 }
 
 ::-webkit-scrollbar {
-	width: 0;
-	background: transparent;
+    width: 0;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: skyblue;
+    background: skyblue;
 }
 
 .capty-wrapper {
-	display: inline-block;
+    display: inline-block;
 }
 
 .capty-caption div {
-	font-size: 16px;
-	font-family: '微軟正黑體', arial;
-	text-align: center;
+    font-size: 16px;
+    font-family: '微軟正黑體', arial;
+    text-align: center;
 }
 
-.grid-item:hover .capty-caption div {
-	font-size: 18px;
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .grid-item {
-	width: 342px;
-	display: inline-block;
+    float: left;
+}
+
+.grid-item:hover .capty-caption div {
+    font-size: 18px;
 }
