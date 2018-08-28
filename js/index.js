@@ -93,6 +93,7 @@ var externals = [/*
 var baseHeight = 250;
 var baseWidth = 341;
 var baseExtWidth = 113;
+var gutter = 5;
 var windowWidth;
 var images;
 var rate;
@@ -102,8 +103,16 @@ var height;
 var flag = null;
 
 function handleResize() {
+  //windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  //$('.grid').css('margin-left', (windowWidth % width) / 2);
+}
+
+function calculatorSize() {
   windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-  $('.grid').css('margin-left', (windowWidth % width) / 2);
+  rate = Math.round(windowWidth / baseWidth);
+  width = Math.floor(windowWidth / rate) - gutter;
+  extWidth = Math.floor(width / 3);
+  height = Math.floor(baseHeight * (width / baseWidth));
 }
 
 function createGridItems() {
@@ -171,11 +180,7 @@ $(document).ready(function() {
     window.top.location = window.location.href;
     return;
   }
-  windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-  rate = Math.round(windowWidth / baseWidth);
-  width = Math.floor(windowWidth / rate);
-  extWidth = Math.floor(width / 3);
-  height = Math.floor(baseHeight * (width / baseWidth));
+  calculatorSize();
 
   handleResize();
 
@@ -194,7 +199,7 @@ $(document).ready(function() {
   $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: width,
-    gutter: 0
+    gutter: gutter
   });
 
   $.each(images, function(index, image) {
