@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <title>Deray 嘎嘎嘎</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta property="og:image" content="http://derayga.github.io/image/tibet.jpg">
     <meta property="og:title" content="Deray 嘎嘎嘎">
     <meta property="og:description" content="單車遊記、自助旅行和閒聊夢想">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link type='text/css' rel='stylesheet' href='./css/jquery.capty.css'/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
@@ -24,9 +27,6 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
     <script src='./js/jquery.capty.min.js'></script>
@@ -164,37 +164,24 @@
     }*/
   ];
 
-  $(document).ready(function() {
-    if (window.self !== window.top) {
-      window.top.location = window.location.href;
-      return;
-    }
-    var imgs = [];
-    var baseHeight = 250;
-    var baseWidth = 341;
-    var baseExtWidth = 113;
-    var windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    var rate = Math.round(windowWidth / baseWidth);
-    var width = Math.floor(windowWidth / rate);
-    var extWidth = Math.floor(width / 3);
-    var height = Math.floor(baseHeight * (width / baseWidth));
-    handleResize();
-    var flag = null;
-    $(window).resize(function() {
-      $('.grid').css('margin-left', 0);
-      clearTimeout(flag)
-      flag = setTimeout(handleResize, 800)
-    });
+  var baseHeight = 250;
+  var baseWidth = 341;
+  var baseExtWidth = 113;
+  var windowWidth;
+  var images;
+  var rate;
+  var width;
+  var extWidth;
+  var height;
+  var flag = null;
 
-    function handleResize() {
-      windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-      $('.grid').css('margin-left', (windowWidth % width) / 2);
-    }
+  function handleResize() {
+    windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    $('.grid').css('margin-left', (windowWidth % width) / 2);
+  }
 
-    if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
-      window.document.title += ' - GitHub 版本';
-    }
-
+  function createGridItems() {
+    images = [];
     $.each(items, function(index, item) {
       var a = $(document.createElement('a')).attr({
         href: '//' + item.link,
@@ -218,16 +205,19 @@
       $(a).append($(image)).append($(context))
       $('.grid').append($(gridItem).append($(a)));
 
-      imgs.push(image);
+      images.push(image);
     });
+  }
 
+  function createExtraItem() {
     var extItem = $(document.createElement('div'))
       .addClass('grid-item').height(height).width(width);
+
     $.each(externals, function(index, item) {
-      var protocal = (item.id == 'gmail') ? 'mailto:' : '//';
+      var protocol = (item.id === 'gmail') ? 'mailto:' : '//';
 
       var a = $(document.createElement('a')).attr({
-        href: protocal + item.link
+        href: protocol + item.link
       });
 
       var image = $(document.createElement('img')).attr({
@@ -244,10 +234,36 @@
 
       $(a).append($(image)).append($(context))
       $(extItem).append($(a));
-      imgs.push(image);
+      images.push(image);
     });
 
     $('.grid').append($(extItem));
+  }
+
+  $(document).ready(function() {
+    if (window.self !== window.top) {
+      window.top.location = window.location.href;
+      return;
+    }
+    windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    rate = Math.round(windowWidth / baseWidth);
+    width = Math.floor(windowWidth / rate);
+    extWidth = Math.floor(width / 3);
+    height = Math.floor(baseHeight * (width / baseWidth));
+
+    handleResize();
+
+    $(window).resize(function() {
+      clearTimeout(flag);
+      flag = setTimeout(handleResize, 800)
+    });
+
+    if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
+      window.document.title += ' - GitHub 版本';
+    }
+
+    createGridItems();
+    createExtraItem();
 
     $('.grid').masonry({
       itemSelector: '.grid-item',
@@ -255,7 +271,7 @@
       gutter: 0
     });
 
-    $.each(imgs, function(index, image) {
+    $.each(images, function(index, image) {
       $(image).delay(index * 165).fadeIn({
         duration: 330,
         complete: function() {
