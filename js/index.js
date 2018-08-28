@@ -6,56 +6,65 @@ var items = [
   },
   {
     id: 'henro',
-    name: '單車-四國遍路 2017年',
+    name: '單車-四國遍路',
     link: 'deray.org/henro',
+    year: '2017年',
     category: 'bike',
   },
   {
     id: 'nippon',
-    name: '單車-日本 2015年',
+    name: '單車-日本',
     link: 'nippon.deray.org',
+    year: '2015年',
     category: 'bike',
   },
   {
     id: 'hokkaido',
-    name: '自助-北海道 2014年',
+    name: '自助-北海道',
     link: 'deray.org/hokkaido',
+    year: '2014年',
     category: 'backpack',
   },
   {
     id: 'tibet',
-    name: '單車-西藏：青藏線 2013年',
+    name: '單車-西藏：青藏線',
     link: 'deray.org/tibet',
+    year: '2013年',
     category: 'bike',
   },
   {
     id: 'franceWithMisasa',
-    name: '自助-法國 2012年',
+    name: '自助-法國',
     link: 'deray.org/franceWithMisasa',
+    year: '2012年',
     category: 'backpack',
   },
   {
     id: 'btp',
-    name: '單車-北京到巴黎 2007年',
+    name: '單車-北京到巴黎',
     link: 'btp.deray.org',
+    year: '2007年',
     category: 'bike',
   },
   {
     id: 'kyoto',
-    name: '自助-京都、大阪 2006年',
+    name: '自助-京都、大阪',
     link: 'deray.org/kyoto',
+    year: '2006年',
     category: 'backpack',
   },
   {
     id: 'france',
-    name: '單車-法國 2005年',
+    name: '單車-法國',
     link: 'france.deray.org',
+    year: '2005年',
     category: 'bike',
   },
   {
     id: 'taiwan',
-    name: '單車-台灣 2003年',
+    name: '單車-台灣',
     link: 'deray.org/taiwan',
+    year: '2003年',
     category: 'bike',
   }
 ];
@@ -114,7 +123,11 @@ function createGridItems() {
       .addClass('label')
       .html(item.name);
 
-    $(a).append($(image)).append($(caption)).append($(label));
+    var year = $(document.createElement('span'))
+      .addClass('year')
+      .html(item.year);
+
+    $(a).append($(image)).append($(caption)).append($(label)).append($(year));
     $(gridItem).append($(a));
     $('.grid').append($(gridItem));
   });

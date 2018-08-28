@@ -66,6 +66,17 @@ body {
     text-shadow: none;
 }
 
+.grid-item span.year {
+    font-size: 11px;
+    font-family: '微軟正黑體', arial;
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+}
+
 .grid-item:hover div.caption{
     opacity: 1;
 }
