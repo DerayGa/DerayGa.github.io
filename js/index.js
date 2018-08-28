@@ -51,48 +51,8 @@ var items = [
   }
 ];
 
-var externals = [
-    {
-      id: 'youtube',
-      height: 81,
-      name: 'YouTube',
-      link: 'www.youtube.com/user/DerayGo/videos'
-    },
-    {
-      id: 'gmail',
-      height: 83,
-      name: 'Gmail',
-      link: 'deraygo@gmail.com?subject=Hi~Deray'
-    },
-    {
-      id: 'github',
-      height: 114,
-      name: 'GitHub',
-      link: 'github.com/derayGa'
-    },
-    {
-      id: 'wikipedia',
-      height: 103,
-      name: '維基百科',
-      link: 'zh.wikipedia.org/wiki/%E8%96%9B%E5%BE%B7%E7%91%9E'
-    },
-    {
-      id: 'linkedin',
-      height: 114,
-      name: 'LinkedIn',
-      link: 'tw.linkedin.com/in/derayga'
-    },
-    {
-      id: 'cv',
-      height: 114,
-      name: 'CV',
-      link: 'derayga.github.io/cv'
-    }
-];
-
 var baseHeight = 250;
 var baseWidth = 341;
-var baseExtWidth = 113;
 var gutter = 5;
 var windowWidth;
 var rate;
@@ -147,46 +107,6 @@ function createGridItems() {
   });
 }
 
-function createExtraItem() {
-  var images = [];
-  var gridItem = $(document.createElement('div'))
-    .addClass('grid-item').height(height).width(width);
-
-  $.each(externals, function(index, item) {
-    var protocol = (item.id === 'gmail') ? 'mailto:' : '//';
-
-    var a = $(document.createElement('a')).attr({
-      href: protocol + item.link
-    });
-
-    var image = $(document.createElement('img')).attr({
-      src: 'image/' + item.id + '.jpg',
-      name: '#' + item.id,
-      title: item.name,
-      height: Math.floor(item.height * (extWidth / baseExtWidth)) + 'px',
-      width: extWidth + 'px',
-    });
-
-    var context = $(document.createElement('div')).attr({
-      id: item.id
-    }).html(item.name);
-
-    $(a).append($(image)).append($(context));
-    $(gridItem).append($(a));
-    images.push(image);
-  });
-
-  $('.grid').append($(gridItem));
-
-  $.each(images, function(index, image) {
-    $(image).capty({
-      animation: undefined,
-      height: 35,
-      opacity: 0.75,
-    });
-  });
-}
-
 function initPage() {
 
 }
@@ -209,7 +129,6 @@ $(document).ready(function() {
 
   initPage();
   createGridItems();
-  createExtraItem();
 
   $('.grid').masonry({
     itemSelector: '.grid-item',
