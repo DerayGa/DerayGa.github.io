@@ -11,6 +11,7 @@
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link type='text/css' rel='stylesheet' href='./css/jquery.capty.css'/>
+    <link type='text/css' rel='stylesheet' href='./css/index.css'/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -30,42 +31,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
     <script src='./js/jquery.capty.min.js'></script>
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-
-        ::-webkit-scrollbar {
-            width: 0;
-            background: transparent;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: skyblue;
-        }
-
-        .capty-wrapper {
-            display: inline-block;
-        }
-
-        .capty-caption div {
-            font-size: 16px;
-            font-family: '微軟正黑體', arial;
-            text-align: center;
-        }
-
-        .grid-item:hover .capty-caption div {
-            font-size: 18px;
-        }
-
-        .grid-item {
-            width: 342px;
-            display: inline-block;
-        }
-    </style>
 </head>
 <body>
 <div class='grid'></div>
@@ -196,13 +161,13 @@
         title: item.name,
         height: height + 'px',
         width: width + 'px',
-      }).hide();
+      });
 
       var context = $(document.createElement('div')).attr({
         id: item.id
-      }).html(item.name + '<br/><a href="' + a.attr('href') + '">' + item.link + '</a>').hide();
+      }).html(item.name + '<br/><a href="' + a.attr('href') + '">' + item.link + '</a>');
 
-      $(a).append($(image)).append($(context))
+      $(a).append($(image)).append($(context));
       $('.grid').append($(gridItem).append($(a)));
 
       images.push(image);
@@ -226,11 +191,11 @@
         title: item.name,
         height: Math.floor(item.height * (extWidth / baseExtWidth)) + 'px',
         width: extWidth + 'px',
-      }).hide();
+      });
 
       var context = $(document.createElement('div')).attr({
         id: item.id
-      }).html(item.name).hide();
+      }).html(item.name);
 
       $(a).append($(image)).append($(context))
       $(extItem).append($(a));
@@ -272,21 +237,15 @@
     });
 
     $.each(images, function(index, image) {
-      $(image).delay(index * 165).fadeIn({
-        duration: 330,
-        complete: function() {
-          var context = $(image).siblings();
-          if (context) {
-            var imageWidth = Number($(image).attr('width').replace('px', ''));
-            $(image).capty({
-              animation: (imageWidth <= extWidth) ? undefined : 'fixed',
-              height: (imageWidth <= extWidth) ? 35 : 60,
-              opacity: 0.75,
-            });
-            $(context).fadeIn(500);
-          }
-        }
-      });
+      var context = $(image).siblings();
+      if (context) {
+        var imageWidth = Number($(image).attr('width').replace('px', ''));
+        $(image).capty({
+          animation: (imageWidth <= extWidth) ? undefined : 'fixed',
+          height: (imageWidth <= extWidth) ? 35 : 60,
+          opacity: 0.75,
+        });
+      }
     });
   });
 </script>
