@@ -166,7 +166,7 @@ $(document).ready(function() {
 
   $(window).resize(function() {
     clearTimeout(flag);
-    flag = setTimeout(handleResize, 800)
+    flag = setTimeout(handleResize, 300)
   });
 
   if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
