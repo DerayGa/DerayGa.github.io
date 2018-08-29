@@ -59,7 +59,9 @@ footer p {
 
 .grid-item {
     float: left;
+    margin-right: 5px;
     margin-bottom: 5px;
+    position: relative;
 }
 .grid-item a img {
     width: 100%;

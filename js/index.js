@@ -112,11 +112,11 @@ function createGridItems() {
     var image = $(document.createElement('img')).attr({
       src: 'image/' + item.id + '.jpg',
       name: '#' + item.id,
-      title: item.name + '\n' + item.link
+      title: item.name + ' ' + item.link
     });
 
     var caption = $(document.createElement('div'))
-      .addClass('caption')
+      .addClass('caption');
 
     var label = $(document.createElement('span'))
       .addClass('label')
@@ -158,6 +158,16 @@ function createGridItems() {
   });
 }
 
+function activeGridItems() {
+  $('.grid > .grid-item').height(gridItemHeight).width(gridItemWidth);
+
+  $('.grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: gridItemWidth,
+    gutter: gridItemPerRow > 1 ? gutter : 0
+  });
+}
+
 $(document).ready(function() {
   if (window.self !== window.top) {
     window.top.location = window.location.href;
@@ -174,5 +184,6 @@ $(document).ready(function() {
   }
 
   calculatorSize();
-  createGridItems();
+  //createGridItems();
+  activeGridItems();
 });
