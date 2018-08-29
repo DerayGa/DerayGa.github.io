@@ -13,7 +13,7 @@ var items = [
   },
   {
     id: 'nippon',
-    name: '環日本',
+    name: '日本',
     link: 'nippon.deray.org',
     year: '2015年',
     category: '單車',
