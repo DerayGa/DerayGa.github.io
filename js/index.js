@@ -168,6 +168,17 @@ function activeGridItems() {
   });
 }
 
+function cycleImages() {
+  $.each($('.cycler .active'), function(index, active) {
+    var next = ($(active).next().length > 0) ? $(active).next() : $('img:first', $(active).parent());
+    $(next).css('z-index', 2);
+    $(active).fadeOut(1500, function() {
+      $(active).css('z-index', 1).show().removeClass('active');
+      $(next).css('z-index', 3).addClass('active');
+    });
+  });
+}
+
 $(document).ready(function() {
   if (window.self !== window.top) {
     window.top.location = window.location.href;
@@ -186,4 +197,6 @@ $(document).ready(function() {
   calculatorSize();
   //createGridItems();
   activeGridItems();
+
+  setInterval('cycleImages()', 5000);
 });

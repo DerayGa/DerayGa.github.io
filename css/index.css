@@ -13,7 +13,8 @@ header {
     text-align: center;
     font-family: '微軟正黑體', 'Open Sans', sans-serif;
 }
-header h1{
+
+header h1 {
     padding: 3px 0;
     margin: 0;
     color: #0a77d5;
@@ -28,6 +29,7 @@ header p {
     font-style: italic;
     font-size: 16px;
 }
+
 footer {
     width: 100%;
     padding: 0;
@@ -37,11 +39,13 @@ footer {
     font-family: '微軟正黑體', 'Open Sans', sans-serif;
     background-color: #e7e8e8;
 }
+
 footer p {
     padding: 3px 0;
     margin: 0;
     color: #3d353d;
 }
+
 ::-webkit-scrollbar {
     width: 0;
     background: transparent;
@@ -49,6 +53,19 @@ footer p {
 
 ::-webkit-scrollbar-thumb {
     background: skyblue;
+}
+
+.cycler {
+    position: relative;
+}
+
+.cycler img {
+    position: absolute;
+    z-index: 1;
+}
+
+.cycler img.active {
+    z-index: 3;
 }
 
 .grid:after {
@@ -63,6 +80,7 @@ footer p {
     margin-bottom: 5px;
     position: relative;
 }
+
 .grid-item a img {
     width: 100%;
     height: auto;
@@ -74,18 +92,20 @@ footer p {
     width: 100%;
     color: white;
     font: bold 11px verdana;
-    text-shadow: 1px 1px 0 #222;
+    text-shadow: 1px 1px 0 #222222;
     opacity: 0.6;
     position: absolute;
     left: 0;
     bottom: 0;
     border-radius: 0 0 8px 8px;
     background-color: #607d8b;
+    z-index: 3;
 }
 
 .grid-item div.caption.bike {
     background-color: #2196f3;
 }
+
 .grid-item div.caption.backpack {
     background-color: #4caf50;
 }
@@ -101,6 +121,7 @@ footer p {
     color: white;
     text-decoration: none;
     text-shadow: none;
+    z-index: 3;
 }
 
 .grid-item span.year, .grid-item span.category {
@@ -111,18 +132,22 @@ footer p {
     bottom: 4px;
     text-decoration: none;
     text-shadow: none;
+    z-index: 3;
 }
+
 .grid-item span.year {
     right: 5px;
 }
+
 .grid-item span.category {
     left: 5px;
 }
 
-.grid-item:hover div.caption{
+.grid-item:hover div.caption {
     opacity: 1;
-    background-color: #333;
+    background-color: #333333;
 }
-.grid-item:hover span.label{
+
+.grid-item:hover span.label {
     font-weight: bold;
 }
