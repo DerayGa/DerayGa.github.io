@@ -94,6 +94,7 @@ function handleResize() {
 
 function calculatorSize() {
   var scrollWidth = window.innerWidth - document.documentElement.clientWidth;
+  
   browserWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) - scrollWidth;
   gridItemPerRow = Math.round(browserWidth / baseWidth);
   gridItemWidth = Math.floor(browserWidth / gridItemPerRow) - (gridItemPerRow > 1 ? gutter : 0);
@@ -136,7 +137,7 @@ function createGridItems() {
       }
       var category = $(document.createElement('span'))
         .addClass('category')
-        .html(`#${item.category}`);
+        .html("#" + item.category);
       $(a).append($(category))
     }
 
@@ -159,13 +160,17 @@ function createGridItems() {
 }
 
 function activeGridItems() {
-  $('.grid > .grid-item').height(gridItemHeight).width(gridItemWidth);
+  $('.grid-item').height(gridItemHeight).width(gridItemWidth);
 
   $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: gridItemWidth,
     gutter: gridItemPerRow > 1 ? gutter : 0
   });
+
+  if (window.innerWidth - document.documentElement.clientWidth > 0) {
+    handleResize();
+  }
 }
 
 function cycleImages() {
@@ -195,7 +200,6 @@ $(document).ready(function() {
   }
 
   calculatorSize();
-  //createGridItems();
   activeGridItems();
 
   setInterval('cycleImages()', 5000);
