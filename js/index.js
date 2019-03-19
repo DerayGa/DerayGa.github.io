@@ -55,14 +55,17 @@ function cycleImages() {
   });
 }
 
-function loadImage(image, amount) {
-  var group = $(image).attr('alt');
-  var divParent = $(image).parent();
-
-  for (var i = 2 ; i <= amount; i++) {
-    $(divParent).append($(document.createElement('img')).attr({
-      src: 'image/' + group + i.toString(10) + '.jpg'
-    }));
+function loadImage(image, amount, index = 2) {
+  if (index <= amount) {
+    var group = $(image).attr('alt');
+    var divParent = $(image).parent();
+    var newImage = $(document.createElement('img')).attr({
+      src: 'image/' + group + index.toString(10) + '.jpg'
+    });
+    $(newImage).load(function() {
+      loadImage(image, amount, index + 1);
+    });
+    $(divParent).append(newImage);
   }
 }
 
