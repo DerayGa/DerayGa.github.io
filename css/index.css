@@ -51,9 +51,9 @@ footer {
     font-size: 15px;
     font-family: '微軟正黑體', 'Open Sans', sans-serif;
     background-color: #e7e8e8;
-    position: fixed;
+    position: relative;
     bottom: 0;
-    z-index: -1;
+    left: 0;
 }
 
 footer p {
