@@ -96,15 +96,14 @@ footer p {
 
 .grid-item {
     float: left;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    width: 342px;
+    height: 250px;
     position: relative;
 }
 
 .grid-item a img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
 .grid-item div.caption {

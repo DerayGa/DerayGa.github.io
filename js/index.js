@@ -1,6 +1,6 @@
 var baseHeight = 250;
-var baseWidth = 341;
-var gutter = 5;
+var baseWidth = 342;
+var gutter = 0;
 var browserWidth;
 var gridItemPerRow;
 var gridItemWidth;
@@ -23,7 +23,7 @@ function handleResize() {
 
 function calculatorSize() {
   var scrollWidth = window.innerWidth - document.documentElement.clientWidth;
-  
+
   browserWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) - scrollWidth;
   gridItemPerRow = Math.round(browserWidth / baseWidth);
   gridItemWidth = Math.floor(browserWidth / gridItemPerRow) - (gridItemPerRow > 1 ? gutter : 0);
