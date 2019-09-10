@@ -1,3 +1,8 @@
+body,
+html {
+    height: 100%;
+}
+
 body {
     padding: 0 0 50px 0;
     margin: 0;
@@ -13,20 +18,29 @@ header {
     font-family: '微軟正黑體', 'Open Sans', sans-serif;
 }
 
-header h1 {
-    padding: 3px 0;
-    margin: 0;
-    color: #0a77d5;
-    font-size: 28px;
-    font-weight: 700;
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/hero.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-header p {
-    padding: 3px 0;
-    margin: 0;
-    color: #3d353d;
-    font-style: italic;
-    font-size: 16px;
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 footer {
@@ -73,6 +87,7 @@ footer p {
 .grid {
     background-color: white;
 }
+
 .grid:after {
     content: '';
     display: block;
@@ -129,7 +144,8 @@ footer p {
     z-index: 3;
 }
 
-.grid-item span.year, .grid-item span.category {
+.grid-item span.year,
+.grid-item span.category {
     font-family: '微軟正黑體', arial;
     position: absolute;
     color: white;
