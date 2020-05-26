@@ -81,6 +81,34 @@ $(document).ready(function() {
 
   if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
     window.document.title += ' - GitHub 版本';
+
+    $.each($('div.grid-item a'), function(index, linkDom) {
+      switch ($(linkDom).attr('href')) {
+        case '//deray.org/taiwan':
+          $(linkDom).attr('href', 'https://derayga.github.io/taiwan');
+          break;
+        case '//france.deray.org':
+          $(linkDom).attr('href', 'https://derayga.github.io/france');
+          break;
+        case '//btp.deray.org':
+          $(linkDom).attr('href', 'https://derayga.github.io/btp');
+          break;
+        case '//deray.org/tibet':
+          $(linkDom).attr('href', 'https://derayga.github.io/tibet');
+          break;
+        case '//nippon.deray.org':
+          $(linkDom).attr('href', 'https://derayga.github.io/nippon');
+          break;
+        case '//deray.org/henro':
+          $(linkDom).attr('href', 'https://derayga.github.io/henro');
+          break;
+        case '//deray.org/thai':
+          $(linkDom).attr('href', 'https://derayga.github.io/thai');
+          break;
+        default:
+          break;
+      }
+    });
   }
 
   calculatorSize();
