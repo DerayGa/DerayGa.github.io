@@ -106,6 +106,7 @@ $(document).ready(function() {
           $(linkDom).attr('href', 'https://derayga.github.io/thai');
           break;
         default:
+          $(linkDom).parent().remove();
           break;
       }
     });
