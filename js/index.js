@@ -110,16 +110,6 @@ $(document).ready(function() {
           break;
       }
     });
-  } else {
-    $.each($('div.grid-item a'), function(index, linkDom) {
-      switch ($(linkDom).attr('href')) {
-        case '//deray.org/hokkaido':
-        case '//deray.org/franceWithMisasa':
-        case '//deray.org/kyoto':
-          $(linkDom).parent().remove();
-          break;
-      }
-    });
   }
 
   calculatorSize();
