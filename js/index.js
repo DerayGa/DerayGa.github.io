@@ -80,7 +80,7 @@ $(document).ready(function() {
   });
 
   if (window.location.href.toLowerCase().indexOf('github.io') > -1) {
-    window.document.title += ' - GitHub 版本';
+    //window.document.title += ' - GitHub 版本';
 
     $.each($('div.grid-item a'), function(index, linkDom) {
       switch ($(linkDom).attr('href')) {
