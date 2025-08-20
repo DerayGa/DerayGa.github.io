@@ -87,16 +87,16 @@ $(document).ready(function() {
         case '//deray.org/taiwan':
           $(linkDom).attr('href', 'https://derayga.github.io/taiwan');
           break;
-        case '//france.deray.org':
+        case '//deray.org/france':
           $(linkDom).attr('href', 'https://derayga.github.io/france');
           break;
-        case '//btp.deray.org':
+        case '//deray.org/btp':
           $(linkDom).attr('href', 'https://derayga.github.io/btp');
           break;
         case '//deray.org/tibet':
           $(linkDom).attr('href', 'https://derayga.github.io/tibet');
           break;
-        case '//nippon.deray.org':
+        case '//deray.org/nippon':
           $(linkDom).attr('href', 'https://derayga.github.io/nippon');
           break;
         case '//deray.org/henro':
